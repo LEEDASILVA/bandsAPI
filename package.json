@@ -1,0 +1,23 @@
+{
+  "name": "bandrestapi",
+  "version": "1.0.0",
+  "description": "rest api for groupie-tracker",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LEEDASILVA/bandsAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LEEDASILVA/bandsAPI/issues"
+  },
+  "homepage": "https://github.com/LEEDASILVA/bandsAPI#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^14.3.1"
+  }
+}
