@@ -13,7 +13,7 @@
                 "dunedin-new_zealand"
                 
             ],
-            "dates":"http://localhost:8080/api/dates/ 1"
+            "dates":"http://localhost:8080/api/dates/1"
         },
         {
             "id": 2,
@@ -22,7 +22,7 @@
                 "papeete-french_polynesia",
                 "noumea-new_caledonia"
             ],
-            "dates":"http://localhost:8080/api/dates/ 2"
+            "dates":"http://localhost:8080/api/dates/2"
         },
         {
             "id":3,
