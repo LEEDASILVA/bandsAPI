@@ -99,11 +99,13 @@ func getLink(w http.ResponseWriter, r *http.Request) {
 		A string `json:"artists"`
 		L string `json:"locations"`
 		D string `json:"dates"`
+		R string `json:"relation"`
 	}
 	res := a{}
 	str := `{ "artists": "http://localhost:8080/api/artists",
 	"locations": "http://localhost:8080/api/locations",
-	"dates": "http://localhost:8080/api/dates" }`
+	"dates": "http://localhost:8080/api/dates",
+	"relation": "http://localhost:8080/api/relation" }`
 	json.Unmarshal([]byte(str), &res)
 	json.NewEncoder(w).Encode(res)
 }
@@ -119,7 +121,6 @@ func getArtist(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 	}
-
 	json.NewEncoder(w).Encode(&Artist{})
 }
 
@@ -133,7 +134,6 @@ func getLocation(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 	}
-
 	json.NewEncoder(w).Encode(&Artist{})
 }
 
@@ -147,7 +147,6 @@ func getDate(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 	}
-
 	json.NewEncoder(w).Encode(&Artist{})
 }
 
@@ -161,7 +160,6 @@ func getRelation(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 	}
-
 	json.NewEncoder(w).Encode(&Artist{})
 }
 
@@ -186,7 +184,6 @@ func loadImage(filename string) image.Image {
 	f, err := os.Open(filename)
 	handleError(err)
 
-	//it will exetude this if the function finally returns the statment
 	defer f.Close()
 
 	img, err := jpeg.Decode(f)
@@ -198,7 +195,7 @@ func getJSON(jsonfile string) {
 	jsonFile, err := os.Open(jsonfile)
 	handleError(err)
 
-	// read our opened xmlFile as a byte array.
+	// read our opened xml/json as a byte array.
 	byteValue, err := ioutil.ReadAll(jsonFile)
 	handleError(err)
 	types := strings.TrimPrefix(

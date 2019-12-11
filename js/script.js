@@ -47,7 +47,7 @@ app.get("/api/dates", (req, res) => {
 });
 
 // display the information of specific ______ when you mention the id
-app.get("/api/location/:id", (req, res) => {
+app.get("/api/locations/:id", (req, res) => {
   const location = locations.index.find(b => b.id === parseInt(req.params.id));
   // if there is no valid band ID, then diplay an error with the folowing
   error404(location);
@@ -71,18 +71,26 @@ app.get("/api/relation/", (req, res) => {
   res.send(date);
 });
 
-let relation = {};
-
 const getRelation = () => {
   locations.index.forEach(ele => {
     dates.index.forEach(dEle => {
-      if (ele.id === ele.id) { 
-        ele.location
+      arrDates = locationNdate(dEle)
+      if (ele.id === dEle.id) { 
+        ele.location.forEach(lEle => {
+          var index = [ { location: lEle, dates: d} ]
+        })
        }
     });
   });
 };
-
+const locationNdate = (date) => {
+  var d
+  date.forEach(ele => {
+    if (ele[0] == '*') {
+      d.push(ele.replace('*',''))
+    }
+  })
+}
 // CREATE request handler
 // create new band information
 app.post("/api/artists", (req, res) => {
