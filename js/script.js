@@ -3,7 +3,7 @@ const Joi = require("joi");
 const app = express();
 
 // fetch the local JSON files
-const bands = require("./../data/bands.json");
+const artists = require("./../data/artists.json");
 const locations = require("./../data/location.json");
 const dates = require("./../data/dates.json");
 
@@ -23,23 +23,23 @@ app.get("/", (req, res) => {
   res.send("<h1> Welcome to band groupi REST API </h1>");
 });
 
-// display the list of bands when URL consists of api bands
+// display the list of artists when URL consists of api artists
 app.get("/api", (req, res) => {
   const api = [
-    { bands: "http://localhost:8080/api/bands" },
+    { artists: "http://localhost:8080/api/artists" },
     { locations: "http://localhost:8080/api/locations" },
     { dates: "http://localhost:8080/api/dates" }
   ];
   res.send(api);
 });
 
-// display the list of bands when URL consists of api locations
+// display the list of artists when URL consists of api locations
 app.get("/api/locations", (req, res) => {
   res.send(locations);
 });
 
-app.get("/api/bands", (req, res) => {
-  res.send(bands);
+app.get("/api/artists", (req, res) => {
+  res.send(artists);
 });
 
 app.get("/api/dates", (req, res) => {
@@ -54,8 +54,8 @@ app.get("/api/location/:id", (req, res) => {
   res.send(location);
 });
 
-app.get("/api/bands/:id", (req, res) => {
-  const band = bands.index.find(b => b.id === parseInt(req.params.id));
+app.get("/api/artists/:id", (req, res) => {
+  const band = artists.index.find(b => b.id === parseInt(req.params.id));
   error404(band);
   res.send(band);
 });
@@ -85,7 +85,7 @@ const getRelation = () => {
 
 // CREATE request handler
 // create new band information
-app.post("/api/bands", (req, res) => {
+app.post("/api/artists", (req, res) => {
   const { error } = validateCustomer(req.body);
   if (error) {
     res.status(400).send(error.details[0].message);
@@ -93,16 +93,16 @@ app.post("/api/bands", (req, res) => {
   }
   // add band
   const band = {
-    if: bands.length + 1,
+    if: artists.length + 1,
     title: req.body.title
   };
-  bands.push(band);
+  artists.push(band);
   res.send(band);
 });
 
 // PUT method update the resurce
-app.put("/api/bands/:id", (req, res) => {
-  const band = bands.find(c => c.id === parseInt(req.params.id));
+app.put("/api/artists/:id", (req, res) => {
+  const band = artists.find(c => c.id === parseInt(req.params.id));
   error404(band);
   // the band is found so...
   const { error } = validateCustomer(req.body);
@@ -117,16 +117,16 @@ app.put("/api/bands/:id", (req, res) => {
 
 // delete request handler
 // delete band details
-app.delete("/api/bands/:id", (req, res) => {
-  const band = bands.find(c => c.id === parseInt(req.params.id));
+app.delete("/api/artists/:id", (req, res) => {
+  const band = artists.find(c => c.id === parseInt(req.params.id));
   error404(band);
 
-  const index = bands.indexOf(band);
+  const index = artists.indexOf(band);
 
   // the element is deleted and the slice is push ->>
-  bands.splice(index, 1);
+  artists.splice(index, 1);
 
-  res.send(bands);
+  res.send(artists);
 });
 
 const error404 = value => {

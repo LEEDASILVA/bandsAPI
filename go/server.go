@@ -89,43 +89,6 @@ func getArtist(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(&Artist{})
 }
 
-func createArtist(w http.ResponseWriter, r *http.Request) {
-
-}
-
-func updateArtist(w http.ResponseWriter, r *http.Request) {
-
-}
-
-func deleteArtist(w http.ResponseWriter, r *http.Request) {
-
-}
-
-func main() {
-	r := mux.NewRouter()
-
-	getJSON("artists.json", "artists")
-	getJSON("locations.json", "locations")
-	getJSON("dates.json", "dates")
-
-	if datslocs.DatsLocs == nil {
-		datslocs.DatsLocs = make(map[string][]string)
-	}
-	joinStructs(dats, locs)
-
-	//Route Handlers / Endpoints
-	r.HandleFunc("/api/artists", getArtists).Methods("GET")
-	r.HandleFunc("/api/relation", getRelation).Methods("GET")
-
-	r.HandleFunc("/api/artists/{id}", getArtist).Methods("GET")
-	r.HandleFunc("/api/artists", createArtist).Methods("POST")
-	r.HandleFunc("/api/artists/{id}", updateArtist).Methods("PUT")
-	r.HandleFunc("/api/artists/{id}", deleteArtist).Methods("DELETE")
-
-	fmt.Println("Server running on port 8000")
-	log.Fatal(http.ListenAndServe(":8000", r))
-}
-
 func getJSON(jsonfile, types string) {
 	jsonFile, err := os.Open(jsonfile)
 	if err != nil {
@@ -221,4 +184,42 @@ func getDates(d Dates) [][]string {
 
 	}
 	return helper
+}
+
+// func createArtist(w http.ResponseWriter, r *http.Request) {
+
+// }
+
+// func updateArtist(w http.ResponseWriter, r *http.Request) {
+
+// }
+
+// func deleteArtist(w http.ResponseWriter, r *http.Request) {
+
+// }
+
+func main() {
+	r := mux.NewRouter()
+
+	getJSON("../data/artists.json", "artists")
+	getJSON("../data/locations.json", "locations")
+	getJSON("../data/dates.json", "dates")
+
+	if datslocs.DatsLocs == nil {
+		datslocs.DatsLocs = make(map[string][]string)
+	}
+	joinStructs(dats, locs)
+
+	//Route Handlers / Endpoints
+	r.HandleFunc("/api/artists", getArtists).Methods("GET")
+	r.HandleFunc("/api/relation", getRelation).Methods("GET")
+
+	r.HandleFunc("/api/artists/{id}", getArtist).Methods("GET")
+
+	// r.HandleFunc("/api/artists", createArtist).Methods("POST")
+	// r.HandleFunc("/api/artists/{id}", updateArtist).Methods("PUT")
+	// r.HandleFunc("/api/artists/{id}", deleteArtist).Methods("DELETE")
+
+	fmt.Println("Server running on port 8000")
+	log.Fatal(http.ListenAndServe(":8000", r))
 }
