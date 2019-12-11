@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strconv"
 	"strings"
 
 	"github.com/gorilla/mux"
@@ -89,16 +90,16 @@ func getArtists(w http.ResponseWriter, r *http.Request) {
 
 func getLocations(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(bands)
+	json.NewEncoder(w).Encode(locs)
 }
 
 func getDates(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(bands)
+	json.NewEncoder(w).Encode(dats)
 }
 
 //get All dates and locations
-func getRelation(w http.ResponseWriter, r *http.Request) {
+func getRelations(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(datloc)
 }
@@ -109,7 +110,49 @@ func getArtist(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r) //Get params
 	//Loop through artists and find with name
 	for _, item := range artists {
-		if item.Name == params["name"] {
+		if strconv.Itoa(item.ID) == params["id"] {
+			json.NewEncoder(w).Encode(item)
+			return
+		}
+	}
+
+	json.NewEncoder(w).Encode(&Artist{})
+}
+
+func getLocation(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	params := mux.Vars(r) //Get params
+	//Loop through artists and find with name
+	for _, item := range locations {
+		if strconv.Itoa(item.ID) == params["id"] {
+			json.NewEncoder(w).Encode(item)
+			return
+		}
+	}
+
+	json.NewEncoder(w).Encode(&Artist{})
+}
+
+func getDate(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	params := mux.Vars(r) //Get params
+	//Loop through artists and find with name
+	for _, item := range dates {
+		if strconv.Itoa(item.ID) == params["id"] {
+			json.NewEncoder(w).Encode(item)
+			return
+		}
+	}
+
+	json.NewEncoder(w).Encode(&Artist{})
+}
+
+func getRelation(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	params := mux.Vars(r) //Get params
+	//Loop through artists and find with name
+	for _, item := range datloc.Index {
+		if strconv.Itoa(item.ID) == params["id"] {
 			json.NewEncoder(w).Encode(item)
 			return
 		}
@@ -240,8 +283,11 @@ func main() {
 	r.HandleFunc("/api/artists", getArtists).Methods("GET")
 	r.HandleFunc("/api/locations", getLocations).Methods("GET")
 	r.HandleFunc("/api/dates", getDates).Methods("GET")
-	r.HandleFunc("/api/relation", getRelation).Methods("GET")
+	r.HandleFunc("/api/relation", getRelations).Methods("GET")
 
+	r.HandleFunc("/api/relation/{id}", getRelation).Methods("GET")
+	r.HandleFunc("/api/dates/{id}", getDate).Methods("GET")
+	r.HandleFunc("/api/locations/{id}", getLocation).Methods("GET")
 	r.HandleFunc("/api/artists/{id}", getArtist).Methods("GET")
 
 	// r.HandleFunc("/api/artists", createArtist).Methods("POST")
