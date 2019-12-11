@@ -1,9 +1,11 @@
 const express = require("express");
 const Joi = require("joi");
 const app = express();
+
 // fetch the local JSON files
-const bands = require("./data/bands.json");
-const locations = require("./data/location.json");
+const bands = require("./../data/bands.json");
+const locations = require("./../data/location.json");
+const dates = require("./../data/dates.json");
 
 // use json files
 app.use(express.json());
@@ -18,16 +20,17 @@ app.use(express.json());
 // respose is what is send from the server side
 // display the message when the URL consist of '/'
 app.get("/", (req, res) => {
-  res.send("Welcome to band groupi REST API");
+  res.send("<h1> Welcome to band groupi REST API </h1>");
 });
 
 // display the list of bands when URL consists of api bands
 app.get("/api", (req, res) => {
   const api = [
-    {bands:"http://localhost:8080/api/bands"},
-    {locations:"http://localhost:8080/api/locations"}
-  ]
-  res.send(api)
+    { bands: "http://localhost:8080/api/bands" },
+    { locations: "http://localhost:8080/api/locations" },
+    { dates: "http://localhost:8080/api/dates" }
+  ];
+  res.send(api);
 });
 
 // display the list of bands when URL consists of api locations
@@ -35,26 +38,48 @@ app.get("/api/locations", (req, res) => {
   res.send(locations);
 });
 
-// display the list of bands when URL consists of api bands
 app.get("/api/bands", (req, res) => {
   res.send(bands);
+});
+
+app.get("/api/dates", (req, res) => {
+  res.send(dates);
 });
 
 // display the information of specific ______ when you mention the id
 app.get("/api/location/:id", (req, res) => {
   const location = locations.index.find(b => b.id === parseInt(req.params.id));
   // if there is no valid band ID, then diplay an error with the folowing
-  error404(location)
+  error404(location);
   res.send(location);
 });
 
-// display the information of specific ______ when you mention the id
 app.get("/api/bands/:id", (req, res) => {
   const band = bands.index.find(b => b.id === parseInt(req.params.id));
-  // if there is no valid band ID, then diplay an error with the folowing
- error404(band)
+  error404(band);
   res.send(band);
 });
+
+app.get("/api/dates/:id", (req, res) => {
+  const date = date.index.find(d => d.id === parseInt(req.params.id));
+  error404(date);
+  res.send(date);
+});
+
+// relation between the locations and the dates
+app.get("/api/relation/", (req, res) => {
+  res.send(date);
+});
+
+let relation = {};
+
+const getRelation = () => {
+  locations.index.forEach(ele => {
+    dates.index.forEach(dEle => {
+
+    });
+  });
+};
 
 // CREATE request handler
 // create new band information
@@ -76,7 +101,7 @@ app.post("/api/bands", (req, res) => {
 // PUT method update the resurce
 app.put("/api/bands/:id", (req, res) => {
   const band = bands.find(c => c.id === parseInt(req.params.id));
-  error404(band)
+  error404(band);
   // the band is found so...
   const { error } = validateCustomer(req.body);
   if (error) {
@@ -92,7 +117,7 @@ app.put("/api/bands/:id", (req, res) => {
 // delete band details
 app.delete("/api/bands/:id", (req, res) => {
   const band = bands.find(c => c.id === parseInt(req.params.id));
-  error404(band)
+  error404(band);
 
   const index = bands.indexOf(band);
 
@@ -109,7 +134,7 @@ const error404 = value => {
       .send(
         '<h2 style="font-family: Malgun Gothic; color: darkred;"> Ooops... error on query</h2>'
       );
-}
+};
 
 // validates the information to add to the JSON
 const validateCustomer2 = band => {

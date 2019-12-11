@@ -2,86 +2,286 @@
     "index":[
         {
             "id":22,
-            "ca-usa":[
-                "08/09/2019",
-                "07/09/2019"
+            "locations": [
+                "california-usa",
+                "leipzig-germany",
+                "salem-germany",
+                "monchengladbach-germany",
+                "cuxhaven-germany",
+                "skanderborg-denmark",
+                "amsterdam-netherlands",
+                "burriana-spain",
+                "oulu-finland",
+                "budapest-hungary",
+                "napoca-romania"
             ],
-            "leipzig-germany": [
-                "17/08/2019"
-            ],
-            "salem-germany": [
-                "16/08/2019"
-            ],
-            "monchengladbach-germany": [
-                "15/08/2019"
-            ],
-            "cuxhaven-germany": [
-                "19/07/2019"
-            ],
-            "skanderborg-denmark": [
-                "08/08/2019"
-            ],
-            "amsterdam-netherlands": [
-                "06/08/2019"
-            ],
-            "burriana-spain": [
-                "03/08/2019"
-            ],
-            "oulu-finland": [
-                "27/07/2019"
-            ],
-            "budapest-hungary": [
-                "23/07/2019"
-            ],
-            "napoca-romania": [
-                "21/07/2019"
-            ]
+            "dates":"http://localhost:8080/api/dates/22"
         },
         {
             "id":23,
-            "riyadh-saudi arabia ":[
-                "22/11/2019",
-                "07/09/2019"
+            "locations": [
+                "riyadh-saudi arabia",
+                "rio_de_janeiro-brazil",
+                "canton-usa",
+                "quebec-canada",
+                "new_york-usa",
+                "california-usa",
+                "las_vegas-usa",
+                "mexico_city-mexico",
+                "monterrey-mexico",
+                "del_mar-usa",
+                "napoca-germany",
+                "lisbon-portugal"
             ],
-            "rio de janeiro-brazil": [
-                "27/09/2019"
-            ],
-            "canton-usa": [
-                "04/08/2019"
-            ],
-            "quebec-canada": [
-                "14/07/2019"
-            ],
-            "new york-usa": [
-                "25/05/2019"
-            ],
-            "napa-usa": [
-                "24/05/2019",
-                "26/05/2019"
-            ],
-            "las vegas-usa": [
-                "31/12/2018",
-                "22/09/2018"
-            ],
-            "mexico city-mexico": [
-                "17/10/2018",
-                "18/10/2018"
-            ],
-            "monterrey-mexico": [
-                "17/07/2018"
-            ],
-            "del mar-usa": [
-                "22/09/2018"
-            ],
-            "napoca-germany": [
-                "08/09/2018"
-            ],
-            "lisbon-portugal": [
-                "04/09/2018"
-            ]
+            "dates":"http://localhost:8080/api/dates/23"
         },
         {
-            "id": 24
+            "id": 24,
+            "locations": [
+                "washington-usa",
+                "west_melbourne-australia",
+                "amsterdam-netherlands",
+                "paris-france",
+                "manchester-uk",
+                "missouri-usa",
+                "chicago-usa",
+                "birmingham-uk",
+                "copenhagen-denmark"
+            ],
+            "dates":"http://localhost:8080/api/dates/24"
+        },
+        {
+            "id": 25,
+            "locations": [
+                "west_melbourne-australia",
+                "sydney-australia",
+                "madison-usa",
+                "toronto-canada",
+                "cleveland-usa",
+                "new_yourk-us",
+                "boston-usa",
+                "texas-usa",
+                "utah-usa",
+                "california-usa"
+            ],
+            "dates":"http://localhost:8080/api/dates/25"
+        },
+        {
+            "id": 26,
+            "locations": [
+                "manchester-uk",
+                "glasgow-uk",
+                "dublin-ireland",
+                "cardiff-uk",
+                "london-uk",
+                "aberdeen-uk",
+                "stockholm-sweden",
+                "madrid-spain",
+                "paris-france",
+                "warsaw-poland",
+                "berlin-germany",
+                "milan-italy"
+            ],
+            "dates":"http://localhost:8080/api/dates/26"
+        },
+        {
+            "id": 27,
+            "locations": [
+                "michican-usa",
+                "new_hampshire-usa",
+                "new_your-usa",
+                "warsaw-poland",
+                "sochaux-france",
+                "lyon-france",
+                "eindhoven-netherlands",
+                "oslo-norway",
+                "amsterdam-netherlands",
+                "colorada-usa"
+            ],
+            "dates":"http://localhost:8080/api/dates/27"
+        },
+        {
+            "id": 28,
+            "locations": [
+                "jakarta-indonesia",
+                "huizhou-china",
+                "texas-usa",
+                "michigan-usa",
+                "changzhou-china",
+                "hong_kong-china",
+                "colorada-usa",
+                "sanya-china",
+                "aalborg-denmark",
+                "washingtono-usa",
+                "new_your-usa",
+                "toronto-canada",
+                "seattle-usa"
+            ],
+            "dates":"http://localhost:8080/api/dates/28"
+        },
+        {
+            "id": 29,
+            "locations": [
+                "omaha-usa",
+                "kansas_city-usa",
+                "st_louis-usa",
+                "indianapolis-usa",
+                "rosemont-usa",
+                "grand_rapids-usa",
+                "toronto-usa",
+                "montreals-usa",
+                "newark-usa",
+                "uniondale-usa",
+                "philadelphia-usa",
+                "hershey-usa",
+                "pittburgh-usa",
+                "washigdon-usa",
+                "columbia-usa"
+            ],
+            "dates":"http://localhost:8080/api/dates/29"
+        },
+        {
+            "id": 30,
+            "locations": [
+                "santiago-chile",
+                "sao_paulo-usa",
+                "los_angeles-usa",
+                "houston-usa",
+                "atlanta-usa",
+                "new_orland-usa",
+                "philadelphia-usa",
+                "london-usa",
+                "frauenfeld-switzerland",
+                "turku-filand"
+            ],
+            "dates":"http://localhost:8080/api/dates/30"
+        },
+        {
+            "id": 31,
+            "locations": [
+                "las_vegas-usa",
+                "brooklyn-usa",
+                "boston-usa",
+                "washington-usa",
+                "philadelphia-usa",
+                "montreal-canada",
+                "toronto-usa",
+                "new_york-usa"
+            ],
+            "dates":"http://localhost:8080/api/dates/31"
+        },
+        {
+            "id": 32,
+            "locations": [
+                "frankfurt-germany",
+                "berlin-germany",
+                "stockholm-sweden",
+                "copenhagen-denmark",
+                "imola-italy",
+                "vienna-austria",
+                "london-uk",
+                "krakow-poland",
+                "budapest-hungary",
+                "zurich-switzerland"
+            ],
+            "dates":"http://localhost:8080/api/dates/32"
+        },
+        {
+            "id": 33,
+            "locations": [
+                "philadelphia-usa",
+                "paris-france",
+                "amityville-usa",
+                "chicago-usa",
+                "minneapolis-usa",
+                "detroit-usa"
+            ],
+            "dates":"http://localhost:8080/api/dates/33"
+        },
+        {
+            "id": 34,
+            "locations": [
+                "oakland-usa",
+                "charlotte-usa",
+                "los_angeles-usa",
+                "berlin-germany",
+                "houston-usa",
+                "chicago-usa",
+                "inglewood-usa",
+                "madrid-spain"
+            ],
+            "dates":"http://localhost:8080/api/dates/34"
+        },
+        {
+            "id": 35,
+            "locations": [
+                "windsor-canada",
+                "brooklyn-usa",
+                "birmingham-uk",
+                "cincinnati-usa",
+                "anaheim-usa",
+                "chicago-usa"
+            ],
+            "dates":"http://localhost:8080/api/dates/35"
+        },
+        {
+            "id": 36,
+            "locations": [
+                "manila-philippine",
+                "mumbai-india",
+                "auckland-new_zealand",
+                "brisbane-australia",
+                "melbourne-australia",
+                "sydney-australia"
+            ],
+            "dates":"http://localhost:8080/api/dates/36"
+        },
+        {
+            "id": 37,
+            "locations": [
+                "bogota-colombia",
+                "rio_de_janeiro-brazil",
+                "sao_paulo-brazil",
+                "santiago-chile",
+                "san_isidro-argentina",
+                "lima-peru"
+            ],
+            "dates":"http://localhost:8080/api/dates/37"
+        },
+        {
+            "id": 38,
+            "locations": [
+                "paris-france",
+                "groningen-netherlands",
+                "antwerp-belgium",
+                "vienna-austria",
+                "glasgow-australia",
+                "londom-uk"
+            ],
+            "dates":"http://localhost:8080/api/dates/38"
+        },
+        {
+            "id": 39,
+            "locations": [
+                "mexico_city-mexico",
+                "pico_rivera-usa",
+                "chicago-usa",
+                "boston-usa",
+                "philadelphia-usa"
+            ],
+            "dates":"http://localhost:8080/api/dates/39"
+        },
+        {
+            "id": 40,
+            "locations": [
+                "london-uk",
+                "berwyn-usa",
+                "georgia-usa",
+                "new_yotk-usa",
+                "dallas-usa",
+                "houston-usa"
+            ],
+            "dates":"http://localhost:8080/api/dates/40"
         }
     ]
 }

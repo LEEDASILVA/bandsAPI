@@ -12,7 +12,7 @@
                 "Solon Bixler"
             ],
             "creationDate": 1998,
-            "locations": "http://locahost/api/location/22"
+            "locations": "http://locahost/api/locations/22"
         },
         {
             "id": 23,
@@ -24,254 +24,211 @@
                 "Ben McKee"
             ],
             "creationDate": 2008,
-            "locations": "http://locahost/api/location/23"
+            "locations": "http://locahost/api/locations/23"
         },
         {
             "id": 24,
-            "image" : "30.jpg",
-            "name" : "Thirty Seconds to Mars",
+            "image" : "juiceWrld.jpg",
+            "name" : "Juice Wrld",
             "members" : [
-                "Jared Leto",
-                "Shannon Leto",
-                "Tomo Miličević",
-                "Matt Wachter",
-                "Solon Bixler"
+                " Jarad Higgins"
             ],
-            "creationDate": 1998
+            "creationDate": 2015,
+            "locations": "http://locahost/api/locations/24"
         },
         {
             "id": 25,
-            "image" : "30.jpg",
-            "name" : "Thirty Seconds to Mars",
+            "image" : "logic.jpg",
+            "name" : "Logic",
             "members" : [
-                "Jared Leto",
-                "Shannon Leto",
-                "Tomo Miličević",
-                "Matt Wachter",
-                "Solon Bixler"
+                "Sir Robert Bryson Hall II"
             ],
-            "creationDate": 1998
+            "creationDate": 2009,
+            "locations": "http://locahost/api/locations/25"
         },
         {
             "id": 26,
-            "image" : "30.jpg",
-            "name" : "Thirty Seconds to Mars",
+            "image" : "alecBeenjamin.jpg",
+            "name" : "Alec Benjamin",
             "members" : [
-                "Jared Leto",
-                "Shannon Leto",
-                "Tomo Miličević",
-                "Matt Wachter",
-                "Solon Bixler"
+                "Jared Leto"
             ],
-            "creationDate": 1998
+            "creationDate": 2013,
+            "locations": "http://locahost/api/locations/26"
         },
         {
             "id": 27,
-            "image" : "30.jpg",
-            "name" : "Thirty Seconds to Mars",
+            "image" : "bobbyMcFerrin.jpg",
+            "name" : "Bobby McFerrins",
             "members" : [
-                "Jared Leto",
-                "Shannon Leto",
-                "Tomo Miličević",
-                "Matt Wachter",
-                "Solon Bixler"
+                "Bobby McFerrin"
             ],
-            "creationDate": 1998
+            "creationDate": 1977,
+            "locations": "http://locahost/api/locations/27"
         },
         {
             "id": 28,
-            "image" : "30.jpg",
-            "name" : "Thirty Seconds to Mars",
+            "image" : "R3HAB.jpg",
+            "name" : "R3HAB",
             "members" : [
-                "Jared Leto",
-                "Shannon Leto",
-                "Tomo Miličević",
-                "Matt Wachter",
-                "Solon Bixler"
+                "Fadil El Ghoul"
             ],
-            "creationDate": 1998
+            "creationDate": 2008,
+            "locations": "http://locahost/api/locations/28"
         },
         {
             "id": 29,
-            "image" : "30.jpg",
-            "name" : "Thirty Seconds to Mars",
+            "image" : "Post Malone.jpg",
+            "name" : "Post Malone",
             "members" : [
-                "Jared Leto",
-                "Shannon Leto",
-                "Tomo Miličević",
-                "Matt Wachter",
-                "Solon Bixler"
+                "Post Malone"
             ],
-            "creationDate": 1998
+            "creationDate": 2013,
+            "locations": "http://locahost/api/locations/29"
         },
         {
             "id": 30,
-            "image" : "30.jpg",
-            "name" : "Thirty Seconds to Mars",
+            "image" : "travisScott.jpg",
+            "name" : "Jacques Bermon Webster II",
             "members" : [
-                "Jared Leto",
-                "Shannon Leto",
-                "Tomo Miličević",
-                "Matt Wachter",
-                "Solon Bixler"
+                "Travis Scott"
             ],
-            "creationDate": 1998
+            "creationDate": 2008,
+            "locations": "http://locahost/api/locations/30"
         },
         {
             "id": 31,
-            "image" : "30.jpg",
-            "name" : "Thirty Seconds to Mars",
+            "image" : "jCole.jpg",
+            "name" : "J. Cole",
             "members" : [
-                "Jared Leto",
-                "Shannon Leto",
-                "Tomo Miličević",
-                "Matt Wachter",
-                "Solon Bixler"
+                "Jermaine Lamarr Cole"
             ],
-            "creationDate": 1998
+            "creationDate": 2007,
+            "locations": "http://locahost/api/locations/31"
         },
         {
             "id": 32,
-            "image" : "30.jpg",
-            "name" : "Thirty Seconds to Mars",
+            "image" : "pearlJam.jpg",
+            "name" : "Pearl Jam",
             "members" : [
-                "Jared Leto",
-                "Shannon Leto",
-                "Tomo Miličević",
-                "Matt Wachter",
-                "Solon Bixler"
+                "Eddie Vedder",
+                "Mike McCready",
+                "Jeff Ament"
             ],
-            "creationDate": 1998
+            "creationDate": 1962,
+            "locations": "http://locahost/api/locations/32"
         },
         {
             "id": 33,
-            "image" : "30.jpg",
-            "name" : "Thirty Seconds to Mars",
+            "image" : "mobbDeep.jpg",
+            "name" : "Mobb Deep",
             "members" : [
-                "Jared Leto",
-                "Shannon Leto",
-                "Tomo Miličević",
-                "Matt Wachter",
-                "Solon Bixler"
+                "Prodigy",
+                "Havoc"
             ],
-            "creationDate": 1998
+            "creationDate": 1991,
+            "locations": "http://locahost/api/locations/33"
         },
         {
             "id": 34,
-            "image" : "30.jpg",
-            "name" : "Thirty Seconds to Mars",
+            "image" : "gunsNRoses.jpg",
+            "name" : "Guns N' Roses",
             "members" : [
-                "Jared Leto",
-                "Shannon Leto",
-                "Tomo Miličević",
-                "Matt Wachter",
-                "Solon Bixler"
+                "Axl Rose",
+                "Duff McKagan",
+                "Slash",
+                "Dizzy Reed",
+                "Richard Fortus",
+                "Frank Ferrer",
+                "Melissa Reese"
             ],
-            "creationDate": 1998
+            "creationDate": 1985,
+            "locations": "http://locahost/api/locations/35"
         },
         {
             "id": 35,
-            "image" : "30.jpg",
-            "name" : "Thirty Seconds to Mars",
+            "image" : "nwa.jpg",
+            "name" : "NWA",
             "members" : [
-                "Jared Leto",
-                "Shannon Leto",
-                "Tomo Miličević",
-                "Matt Wachter",
-                "Solon Bixler"
+                "Ice Cube",
+                "Eazy-E",
+                "Dr. Dre",
+                "MC Ren",
+                "DJ Yella",
+                "The D.O.C.",
+                "Arabian Prince"
             ],
-            "creationDate": 1998
+            "creationDate": 1998,
+            "locations": "http://locahost/api/locations/37"
         },
         {
             "id": 36,
-            "image" : "30.jpg",
-            "name" : "Thirty Seconds to Mars",
+            "image" : "u2.jpg",
+            "name" : "U2",
             "members" : [
-                "Jared Leto",
-                "Shannon Leto",
-                "Tomo Miličević",
-                "Matt Wachter",
-                "Solon Bixler"
+                "Bono",
+                "The Edge",
+                "Adam Clayton",
+                "Larry Mullen Jr.",
+                "Ivan McCormick",
+                "Peter Martin",
+                "Dick Evans"
             ],
-            "creationDate": 1998
+            "creationDate": 1976,
+            "locations": "http://locahost/api/locations/38"
         },
         {
             "id": 37,
-            "image" : "30.jpg",
-            "name" : "Thirty Seconds to Mars",
+            "image" : "arcticmonkeys.jpg",
+            "name" : "Arctic Monkeys",
             "members" : [
-                "Jared Leto",
-                "Shannon Leto",
-                "Tomo Miličević",
-                "Matt Wachter",
-                "Solon Bixler"
+                "Alex Turner",
+                "Matt Helders",
+                "Jamie Cook",
+                "Nick O'Malley",
+                "Andy Nicholson",
+                "Glyn Jones"
             ],
-            "creationDate": 1998
+            "creationDate": 2002,
+            "locations": "http://locahost/api/locations/39"
         },
         {
             "id": 38,
-            "image" : "30.jpg",
-            "name" : "Thirty Seconds to Mars",
+            "image" : "fallOutBoy.jpg",
+            "name" : "Fall Out Boy",
             "members" : [
-                "Jared Leto",
-                "Shannon Leto",
-                "Tomo Miličević",
-                "Matt Wachter",
-                "Solon Bixler"
+                "Pete Wentz",
+                "Patrick Stump",
+                "Andy Hurley",
+                "Joe Trohman"
             ],
-            "creationDate": 1998
+            "creationDate": 2001,
+            "locations": "http://locahost/api/locations/40"
         },
         {
             "id": 39,
-            "image" : "30.jpg",
-            "name" : "Thirty Seconds to Mars",
+            "image" : "gorillaz.jpg",
+            "name" : "Gorillaz",
             "members" : [
-                "Jared Leto",
-                "Shannon Leto",
-                "Tomo Miličević",
-                "Matt Wachter",
-                "Solon Bixler"
+                "Damon Albarn",
+                "Jamie Hewlett",
+                "Remi Kabaka Jr."
             ],
-            "creationDate": 1998
+            "creationDate": 1998,
+            "locations": "http://locahost/api/locations/41"
         },
         {
             "id": 40,
-            "image" : "30.jpg",
-            "name" : "Thirty Seconds to Mars",
+            "image" : "eagles.jpg",
+            "name" : "Eagles",
             "members" : [
-                "Jared Leto",
-                "Shannon Leto",
-                "Tomo Miličević",
-                "Matt Wachter",
-                "Solon Bixler"
+                "Glenn Frey",
+                "Don Henley",
+                "Randy Meisner",
+                "Bernie Leadon"
             ],
-            "creationDate": 1998
-        },
-        {
-            "id": 41,
-            "image" : "30.jpg",
-            "name" : "Thirty Seconds to Mars",
-            "members" : [
-                "Jared Leto",
-                "Shannon Leto",
-                "Tomo Miličević",
-                "Matt Wachter",
-                "Solon Bixler"
-            ],
-            "creationDate": 1998
-        },
-        {
-            "id": 42,
-            "image" : "30.jpg",
-            "name" : "Thirty Seconds to Mars",
-            "members" : [
-                "Jared Leto",
-                "Shannon Leto",
-                "Tomo Miličević",
-                "Matt Wachter",
-                "Solon Bixler"
-            ],
-            "creationDate": 1998
+            "creationDate": 1971,
+            "locations": "http://locahost/api/locations/42"
         }
     ]
 }
