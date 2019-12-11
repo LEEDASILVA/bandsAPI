@@ -20,7 +20,7 @@
         },
         {
             "id": 2,
-            "image" : "soja.jpeg",
+            "image" : "http://localhost:8080/api/images/soja.jpeg",
             "name" : "SOJA",
             "members" : [
                 "Jacob Hemphill",
@@ -39,7 +39,7 @@
         },
         {
             "id": 3,
-            "image" : "pinkfloyd.jpeg",
+            "image" : "http://localhost:8080/api/images/pinkfloyd.jpeg",
             "name" : "Pink Floyd",
             "members" : [
                 "David Gilmour",
@@ -56,7 +56,7 @@
         },
         {
             "id": 4,
-            "image" : "scorpions.jpeg",
+            "image" : "http://localhost:8080/api/images/scorpions.jpeg",
             "name" : "Scorpions",
             "members" : [
                 "Klaus Meine",
@@ -72,7 +72,7 @@
         },
         {
             "id": 5,
-            "image" : "xxx.jpeg",
+            "image" : "http://localhost:8080/api/images/xxx.jpeg",
             "name" : "XXXTentacion",
             "members" : [
                 "Jahseh Dwayne Ricardo Onfroy"
@@ -84,7 +84,7 @@
         },
         {
             "id": 6,
-            "image" : "macmiller.jpeg",
+            "image" : "http://localhost:8080/api/images/macmiller.jpeg",
             "name" : "Malcolm James McCormick",
             "members" : [
                 "Mac Miller"
@@ -96,7 +96,7 @@
         },
         {
             "id": 7,
-            "image" : "joynerlucas.jpeg",
+            "image" : "http://localhost:8080/api/images/joynerlucas.jpeg",
             "name" : "Joyner Lucas",
             "members" : [
                 "Gary Maurice Lucas Jr."
@@ -108,7 +108,7 @@
         },
         {
             "id": 8,
-            "image" : "kendricklamar.jpeg",
+            "image" : "http://localhost:8080/api/images/kendricklamar.jpeg",
             "name" : "Kendrick Lamar",
             "members" : [
                 "Kendrick Lamar Duckworth"
@@ -120,7 +120,7 @@
         },
         {
             "id": 9,
-            "image" : "acdc.jpeg",
+            "image" : "http://localhost:8080/api/images/acdc.jpeg",
             "name" : "ACDC",
             "members" : [
                 "Angus Young",
@@ -135,7 +135,7 @@
         },
         {
             "id": 10,
-            "image" : "pearljam.jpeg",
+            "image" : "http://localhost:8080/api/images/pearljam.jpeg",
             "name" : "Pearl Jam",
             "members" : [
                 "Eddie Vedder",
@@ -151,7 +151,7 @@
         },
         {
             "id": 11,
-            "image" : "katyperry.jpeg",
+            "image" : "http://localhost:8080/api/images/katyperry.jpeg",
             "name" : "Katy Perry",
             "members" : [
                 "Katheryn Elizabeth Hudson"
@@ -164,7 +164,7 @@
         },
         {
             "id": 12,
-            "image" : "rihanna.jpeg",
+            "image" : "http://localhost:8080/api/images/rihanna.jpeg",
             "name" : "Rihanna",
             "members" : [
                 "Robyn Rihanna Fenty"
@@ -176,7 +176,7 @@
         },
         {
             "id": 13,
-            "image" : "genesis.jpeg",
+            "image" : "http://localhost:8080/api/images/genesis.jpeg",
             "name" : "Genesis",
             "members" : [
                 "Mike Rutherford",
@@ -192,7 +192,7 @@
         },
         {
             "id": 14,
-            "image" : "philcollins.jpeg",
+            "image" : "http://localhost:8080/api/images/philcollins.jpeg",
             "name" : "Phil Collins",
             "members" : [
                 "Phil Collins"
@@ -204,7 +204,7 @@
         },
         {
             "id": 15,
-            "image" : "ledzeppelin.jpeg",
+            "image" : "http://localhost:8080/api/images/ledzeppelin.jpeg",
             "name" : "Led Zeppelin",
             "members" : [
                 "Jimmy Page",
@@ -219,7 +219,7 @@
         },
         {
             "id": 16,
-            "image" : "jimihendrix.jpeg",
+            "image" : "http://localhost:8080/api/images/jimihendrix.jpeg",
             "name" : "The Jimi Hendrix Experience",
             "members" : [
                 "Jimi Hendrix",
@@ -234,7 +234,7 @@
         },
         {
             "id": 17,
-            "image" : "beegees.jpeg",
+            "image" : "http://localhost:8080/api/images/beegees.jpeg",
             "name" : "Bee Gees",
             "members" : [
                 "Barry Gib",
@@ -248,7 +248,7 @@
         },
         {
             "id": 18,
-            "image" : "deeppurple.jpeg",
+            "image" : "http://localhost:8080/api/images/deeppurple.jpeg",
             "name" : "Deep Purple",
             "members" : [
                 "Ian Paice",
@@ -264,7 +264,7 @@
         },
         {
             "id": 19,
-            "image" : "aerosmith.jpeg",
+            "image" : "http://localhost:8080/api/images/aerosmith.jpeg",
             "name" : "Aerosmith",
             "members" : [
                 "Steven Tyler",
@@ -280,7 +280,7 @@
         },
         {
             "id": 20,
-            "image" : "direstraits.jpeg",
+            "image" : "http://localhost:8080/api/images/direstraits.jpeg",
             "name" : "Dire Straits",
             "members" : [
                 "Mark Knopfler",
@@ -295,7 +295,7 @@
         },
         {
             "id": 21,
-            "image" : "mamonasassassinas.jpeg",
+            "image" : "http://localhost:8080/api/images/mamonasassassinas.jpeg",
             "name" : "Mamonas Assassinas",
             "members" : [
                 "Dinho",
@@ -311,7 +311,7 @@
         },
         {
             "id": 22,
-            "image" : "30.jpg",
+            "image" : "http://localhost:8080/api/images/30.jpeg",
             "name" : "Thirty Seconds to Mars",
             "members" : [
                 "Jared Leto",
@@ -327,7 +327,7 @@
         },
         {
             "id": 23,
-            "image" : "imaginDragons.jpg",
+            "image" : "http://localhost:8080/api/images/imaginDragons.jpeg",
             "name" : "Imagin Dragon",
             "members" : [
                 "Dan Reynolds",
@@ -341,7 +341,7 @@
         },
         {
             "id": 24,
-            "image" : "juiceWrld.jpg",
+            "image" : "http://localhost:8080/api/images/juiceWrld.jpeg",
             "name" : "Juice Wrld",
             "members" : [
                 " Jarad Higgins"
@@ -353,7 +353,7 @@
         },
         {
             "id": 25,
-            "image" : "logic.jpg",
+            "image" : "http://localhost:8080/api/images/logic.jpeg",
             "name" : "Logic",
             "members" : [
                 "Sir Robert Bryson Hall II"
@@ -365,7 +365,7 @@
         },
         {
             "id": 26,
-            "image" : "alecBeenjamin.jpg",
+            "image" : "http://localhost:8080/api/images/alecBeenjamin.jpeg",
             "name" : "Alec Benjamin",
             "members" : [
                 "Jared Leto"
@@ -377,7 +377,7 @@
         },
         {
             "id": 27,
-            "image" : "bobbyMcFerrin.jpg",
+            "image" : "http://localhost:8080/api/images/bobbyMcFerrin.jpeg",
             "name" : "Bobby McFerrins",
             "members" : [
                 "Bobby McFerrin"
@@ -389,7 +389,7 @@
         },
         {
             "id": 28,
-            "image" : "R3HAB.jpg",
+            "image" : "http://localhost:8080/api/images/R3HAB.jpeg",
             "name" : "R3HAB",
             "members" : [
                 "Fadil El Ghoul"
@@ -401,7 +401,7 @@
         },
         {
             "id": 29,
-            "image" : "Post Malone.jpg",
+            "image" : "Post http://localhost:8080/api/images/Malone.jpeg",
             "name" : "Post Malone",
             "members" : [
                 "Post Malone"
@@ -413,7 +413,7 @@
         },
         {
             "id": 30,
-            "image" : "travisScott.jpg",
+            "image" : "http://localhost:8080/api/images/travisScott.jpeg",
             "name" : "Jacques Bermon Webster II",
             "members" : [
                 "Travis Scott"
@@ -425,7 +425,7 @@
         },
         {
             "id": 31,
-            "image" : "jCole.jpg",
+            "image" : "http://localhost:8080/api/images/jCole.jpeg",
             "name" : "J. Cole",
             "members" : [
                 "Jermaine Lamarr Cole"
@@ -437,7 +437,7 @@
         },
         {
             "id": 32,
-            "image" : "pearlJam.jpg",
+            "image" : "http://localhost:8080/api/images/pearlJam.jpeg",
             "name" : "Pearl Jam",
             "members" : [
                 "Eddie Vedder",
@@ -451,7 +451,7 @@
         },
         {
             "id": 33,
-            "image" : "mobbDeep.jpg",
+            "image" : "http://localhost:8080/api/images/mobbDeep.jpeg",
             "name" : "Mobb Deep",
             "members" : [
                 "Prodigy",
@@ -464,7 +464,7 @@
         },
         {
             "id": 34,
-            "image" : "gunsNRoses.jpg",
+            "image" : "http://localhost:8080/api/images/gunsNRoses.jpeg",
             "name" : "Guns N' Roses",
             "members" : [
                 "Axl Rose",
@@ -482,7 +482,7 @@
         },
         {
             "id": 35,
-            "image" : "nwa.jpg",
+            "image" : "http://localhost:8080/api/images/nwa.jpeg",
             "name" : "NWA",
             "members" : [
                 "Ice Cube",
@@ -500,7 +500,7 @@
         },
         {
             "id": 36,
-            "image" : "u2.jpg",
+            "image" : "http://localhost:8080/api/images/u2.jpeg",
             "name" : "U2",
             "members" : [
                 "Bono",
@@ -518,7 +518,7 @@
         },
         {
             "id": 37,
-            "image" : "arcticmonkeys.jpg",
+            "image" : "http://localhost:8080/api/images/arcticmonkeys.jpeg",
             "name" : "Arctic Monkeys",
             "members" : [
                 "Alex Turner",
@@ -535,7 +535,7 @@
         },
         {
             "id": 38,
-            "image" : "fallOutBoy.jpg",
+            "image" : "http://localhost:8080/api/images/fallOutBoy.jpeg",
             "name" : "Fall Out Boy",
             "members" : [
                 "Pete Wentz",
@@ -550,7 +550,7 @@
         },
         {
             "id": 39,
-            "image" : "gorillaz.jpg",
+            "image" : "http://localhost:8080/api/images/gorillaz.jpeg",
             "name" : "Gorillaz",
             "members" : [
                 "Damon Albarn",
@@ -564,7 +564,7 @@
         },
         {
             "id": 40,
-            "image" : "eagles.jpg",
+            "image" : "http://localhost:8080/api/images/eagles.jpeg",
             "name" : "Eagles",
             "members" : [
                 "Glenn Frey",
@@ -579,7 +579,7 @@
         },
         {
             "id": 41,
-            "image" : "linkinpark.jpeg",
+            "image" : "http://localhost:8080/api/images/linkinpark.jpeg",
             "name" : "Linkin Park",
             "members" : [
                 "Chester Bennington",
@@ -596,7 +596,7 @@
         },
         {
             "id": 42,
-            "image" : "redrotchilipeppers.jpeg",
+            "image" : "http://localhost:8080/api/images/redrotchilipeppers.jpeg",
             "name" : "Red Hot Chili Peppers",
             "members" : [
                 "Anthony Kiedis",
@@ -611,7 +611,7 @@
         },
         {
             "id": 43,
-            "image" : "eminem.jpeg",
+            "image" : "http://localhost:8080/api/images/eminem.jpeg",
             "name" : "Eminem",
             "members" : [
                 "Marshall Bruce Mathers"
@@ -623,7 +623,7 @@
         },
         {
             "id": 44,
-            "image" : "greenday.jpeg",
+            "image" : "http://localhost:8080/api/images/greenday.jpeg",
             "name" : "Green Day",
             "members" : [
                 "Billie Joe Armstrong",
@@ -637,7 +637,7 @@
         },
         {
             "id": 45,
-            "image" : "metallica.jpeg",
+            "image" : "http://localhost:8080/api/images/metallica.jpeg",
             "name" : "Metallica",
             "members" : [
                 "James Hetfield",
@@ -652,7 +652,7 @@
         },
         {
             "id": 46,
-            "image" : "coldplay.jpeg",
+            "image" : "http://localhost:8080/api/images/coldplay.jpeg",
             "name" : "Coldplay",
             "members" : [
                 "Chris Martin",
@@ -667,7 +667,7 @@
         },
         {
         "id": 47,
-            "image" : "maroon5.jpeg",
+            "image" : "http://localhost:8080/api/images/maroon5.jpeg",
             "name" : "Maroon5",
             "members" : [
                 "Adam Levine",
@@ -685,7 +685,7 @@
         },
         {
             "id": 48,
-                "image" : "twentyonepilots.jpeg",
+                "image" : "http://localhost:8080/api/images/twentyonepilots.jpeg",
                 "name" : "Twenty One Pilots ",
                 "members" : [
                     "Tyler Joseph",
@@ -698,7 +698,7 @@
             },
         {
             "id": 49,
-                "image" : "therollingstones.jpeg",
+                "image" : "http://localhost:8080/api/images/therollingstones.jpeg",
                 "name" : "The Rolling Stones",
                 "members" : [
                     "Mick Jagger ",
@@ -713,7 +713,7 @@
             },
         {
             "id": 50,
-                "image" : "muse.jpeg",
+                "image" : "http://localhost:8080/api/images/muse.jpeg",
                 "name" : "Muse",
                 "members" : [
                     "Matthew Bellamy",
@@ -727,7 +727,7 @@
             },
         {
             "id": 51,
-                "image" : "foofighters.jpeg",
+                "image" : "http://localhost:8080/api/images/foofighters.jpeg",
                 "name" : "Foo Fighters",
                 "members" : [
                     "Dave Grohl",
@@ -744,7 +744,7 @@
             },
         {
             "id": 52,
-                "image" : "thechainsmokers.jpeg",
+                "image" : "http://localhost:8080/api/images/thechainsmokers.jpeg",
                 "name" : "The Chainsmokers",
                 "members" : [
                     "Alexander Pall",

@@ -72,39 +72,25 @@ func handleError(err error) {
 	}
 }
 
-//decode the image and returns it
-func loadImage(filename string) image.Image {
-	f, err := os.Open(filename)
-
-	if err != nil {
-		//just to remove the package log
-		fmt.Println(err.Error())
-		os.Exit(1)
-	}
-	//it will exetude this if the function finally returns the statment
-	defer f.Close()
-
-	img, err := jpeg.Decode(f)
-	if err != nil {
-		//just to remove the package log
-		fmt.Println(err.Error())
-		os.Exit(1)
-	}
-	return img
+// all Get handlers
+func getArtists(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(artists)
 }
 
-func getImages(w http.ResponseWriter, r *http.Request) {
-	buffer := new(bytes.Buffer)
+func getLocations(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(locs)
+}
 
-	if err := jpeg.Encode(buffer, loadImage("../images/queen.jpeg"), nil); err != nil {
-		log.Println("unable to encode image.")
-	}
+func getDates(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(dats)
+}
 
-	w.Header().Set("Content-Type", "image/jpeg")
-	w.Header().Set("Content-Length", strconv.Itoa(len(buffer.Bytes())))
-	if _, err := w.Write(buffer.Bytes()); err != nil {
-		log.Println("unable to write image.")
-	}
+func getRelations(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(datloc)
 }
 
 func getLink(w http.ResponseWriter, r *http.Request) {
@@ -122,33 +108,11 @@ func getLink(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(res)
 }
 
-//Get All Artists
-func getArtists(w http.ResponseWriter, r *http.Request) {
-	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(artists)
-}
-
-func getLocations(w http.ResponseWriter, r *http.Request) {
-	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(locs)
-}
-
-func getDates(w http.ResponseWriter, r *http.Request) {
-	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(dats)
-}
-
-//get All dates and locations
-func getRelations(w http.ResponseWriter, r *http.Request) {
-	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(datloc)
-}
-
-//Get One Artists
+// all Get handlers using url querys
 func getArtist(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	params := mux.Vars(r) //Get params
-	//Loop through artists and find with name
+	params := mux.Vars(r) // Get params
+	// loop through artists and find with name
 	for _, item := range artists {
 		if strconv.Itoa(item.ID) == params["id"] {
 			json.NewEncoder(w).Encode(item)
@@ -161,8 +125,8 @@ func getArtist(w http.ResponseWriter, r *http.Request) {
 
 func getLocation(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	params := mux.Vars(r) //Get params
-	//Loop through artists and find with name
+	params := mux.Vars(r)
+
 	for _, item := range locations {
 		if strconv.Itoa(item.ID) == params["id"] {
 			json.NewEncoder(w).Encode(item)
@@ -175,8 +139,8 @@ func getLocation(w http.ResponseWriter, r *http.Request) {
 
 func getDate(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	params := mux.Vars(r) //Get params
-	//Loop through artists and find with name
+	params := mux.Vars(r)
+
 	for _, item := range dates {
 		if strconv.Itoa(item.ID) == params["id"] {
 			json.NewEncoder(w).Encode(item)
@@ -189,8 +153,8 @@ func getDate(w http.ResponseWriter, r *http.Request) {
 
 func getRelation(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	params := mux.Vars(r) //Get params
-	//Loop through artists and find with name
+	params := mux.Vars(r)
+
 	for _, item := range datloc.Index {
 		if strconv.Itoa(item.ID) == params["id"] {
 			json.NewEncoder(w).Encode(item)
@@ -201,11 +165,38 @@ func getRelation(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(&Artist{})
 }
 
+func getImages(w http.ResponseWriter, r *http.Request) {
+	buffer := new(bytes.Buffer)
+	params := mux.Vars(r)
+
+	image := "../images/" + params["image"]
+	if err := jpeg.Encode(buffer, loadImage(image), nil); err != nil {
+		log.Println("unable to encode image.")
+	}
+
+	w.Header().Set("Content-Type", "image/jpeg")
+	w.Header().Set("Content-Length", strconv.Itoa(len(buffer.Bytes())))
+	if _, err := w.Write(buffer.Bytes()); err != nil {
+		log.Println("unable to write image.")
+	}
+}
+
+//decode the image and returns it
+func loadImage(filename string) image.Image {
+	f, err := os.Open(filename)
+	handleError(err)
+
+	//it will exetude this if the function finally returns the statment
+	defer f.Close()
+
+	img, err := jpeg.Decode(f)
+	handleError(err)
+	return img
+}
+
 func getJSON(jsonfile string) {
 	jsonFile, err := os.Open(jsonfile)
 	handleError(err)
-
-	fmt.Printf("Successfully Opened %v\n", jsonfile)
 
 	// read our opened xmlFile as a byte array.
 	byteValue, err := ioutil.ReadAll(jsonFile)
@@ -269,10 +260,10 @@ func joinStructs(d Dats, l Locs) {
 }
 
 func locationNdates(d Dates) [][]string {
-
 	var helper [][]string
 	var helper2 []string
 	aster := false
+
 	for i, dat := range d.Dat {
 		if dat[0] == '*' && aster == false {
 			helper2 = append(helper2, dat[1:])
@@ -284,7 +275,6 @@ func locationNdates(d Dates) [][]string {
 		} else if dat[0] != '*' && aster == true {
 			helper2 = append(helper2, dat)
 		}
-
 		if i == len(d.Dat)-1 {
 			helper = append(helper, helper2)
 		}
@@ -292,18 +282,6 @@ func locationNdates(d Dates) [][]string {
 	}
 	return helper
 }
-
-// func createArtist(w http.ResponseWriter, r *http.Request) {
-
-// }
-
-// func updateArtist(w http.ResponseWriter, r *http.Request) {
-
-// }
-
-// func deleteArtist(w http.ResponseWriter, r *http.Request) {
-
-// }
 
 func main() {
 	r := mux.NewRouter()
@@ -318,7 +296,6 @@ func main() {
 	joinStructs(dats, locs)
 
 	//Route Handlers / Endpoints
-	r.HandleFunc("/api/images", getImages).Methods("GET")
 	r.HandleFunc("/api", getLink).Methods("GET")
 	r.HandleFunc("/api/artists", getArtists).Methods("GET")
 	r.HandleFunc("/api/locations", getLocations).Methods("GET")
@@ -329,10 +306,7 @@ func main() {
 	r.HandleFunc("/api/dates/{id}", getDate).Methods("GET")
 	r.HandleFunc("/api/locations/{id}", getLocation).Methods("GET")
 	r.HandleFunc("/api/artists/{id}", getArtist).Methods("GET")
-
-	// r.HandleFunc("/api/artists", createArtist).Methods("POST")
-	// r.HandleFunc("/api/artists/{id}", updateArtist).Methods("PUT")
-	// r.HandleFunc("/api/artists/{id}", deleteArtist).Methods("DELETE")
+	r.HandleFunc("/api/images/{image}", getImages).Methods("GET")
 
 	fmt.Println("Server running on port 8080")
 	log.Fatal(http.ListenAndServe(":8080", r))
