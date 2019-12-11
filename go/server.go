@@ -12,43 +12,40 @@ import (
 	"github.com/gorilla/mux"
 )
 
-type Artist struct {
-	ID           int      `json:"id"`
-	Name         string   `json:"name"`
-	Members      []string `json:"members"`
-	Image        string   `json:"image"`
-	CreationDate string   `json:"date"`
-}
-
 type Bands struct {
 	Index []Artist `json:"index"`
 }
-
-type Locations struct {
-	ID    int      `json:"id"`
-	Locat []string `json:"locations"`
+type Artist struct {
+	ID           int      `json:"id"`
+	Image        string   `json:"image"`
+	Name         string   `json:"name"`
+	Members      []string `json:"members"`
+	CreationDate string   `json:"creationDate"`
+	Locations    string   `json:"locations"`
 }
 
 type Locs struct {
 	Index []Locations `json:"index"`
 }
-
-type Dates struct {
-	ID  int      `json:"id"`
-	Dat []string `json:"dates"`
+type Locations struct {
+	ID    int      `json:"id"`
+	Locat []string `json:"locations"`
 }
 
 type Dats struct {
 	Index []Dates `json:"index"`
 }
-
-type DatsLocs struct {
-	ID       int                 `json:"id"`
-	DatsLocs map[string][]string `json:"datesLocations"`
+type Dates struct {
+	ID  int      `json:"id"`
+	Dat []string `json:"dates"`
 }
 
 type DatLoc struct {
 	Index []DatsLocs `json:"index"`
+}
+type DatsLocs struct {
+	ID       int                 `json:"id"`
+	DatsLocs map[string][]string `json:"datesLocations"`
 }
 
 var bands Bands
@@ -69,8 +66,23 @@ func handleError(err error) {
 	}
 }
 
+func getLink(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode("http://localhost:8080/api/artists http://localhost:8080/api/locations http://localhost:8080/api/dates")
+}
+
 //Get All Artists
 func getArtists(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(bands)
+}
+
+func getLocations(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(bands)
+}
+
+func getDates(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(bands)
 }
@@ -149,7 +161,7 @@ func getJSON(jsonfile string) {
 
 func joinStructs(d Dats, l Locs) {
 	for i, dat := range d.Index {
-		arrDates := getDates(dat)
+		arrDates := locationNdates(dat)
 		for j, x := range l.Index[i].Locat {
 
 			//x -> cada localização de um certo id i
@@ -163,7 +175,7 @@ func joinStructs(d Dats, l Locs) {
 
 }
 
-func getDates(d Dates) [][]string {
+func locationNdates(d Dates) [][]string {
 
 	var helper [][]string
 	var helper2 []string
@@ -213,7 +225,10 @@ func main() {
 	joinStructs(dats, locs)
 
 	//Route Handlers / Endpoints
+	r.HandleFunc("/api", getLink).Methods("GET")
 	r.HandleFunc("/api/artists", getArtists).Methods("GET")
+	r.HandleFunc("/api/locations", getLocations).Methods("GET")
+	r.HandleFunc("/api/dates", getDates).Methods("GET")
 	r.HandleFunc("/api/relation", getRelation).Methods("GET")
 
 	r.HandleFunc("/api/artists/{id}", getArtist).Methods("GET")
