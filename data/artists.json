@@ -14,7 +14,7 @@
                 "Doug Fogie"
             ],
             "creationDate": 1970,
-            "locations": "https://localhost:8080/api/locations/1"
+            "locations": "http://localhost:8080/api/locations/1"
         },
         {
             "id": 2,
@@ -31,7 +31,7 @@
                 "Trevor Young"
             ],
             "creationDate": 1997,
-            "locations": "https://localhost:8080/api/locations/2"
+            "locations": "http://localhost:8080/api/locations/2"
         },
         {
             "id": 3,
@@ -46,7 +46,7 @@
                 "Bob Klose"
             ],
             "creationDate": 1965,
-            "locations": "https://localhost:8080/api/locations/3"
+            "locations": "http://localhost:8080/api/locations/3"
         },
         {
             "id": 4,
@@ -60,7 +60,7 @@
                 "Mikkey Dee"
             ],
             "creationDate": 1965,
-            "locations": "https://localhost:8080/api/locations/4"
+            "locations": "http://localhost:8080/api/locations/4"
         },
         {
             "id": 5,
@@ -70,7 +70,7 @@
                 "Jahseh Dwayne Ricardo Onfroy"
             ],
             "creationDate": 2013,
-            "locations": "https://localhost:8080/api/locations/5"
+            "locations": "http://localhost:8080/api/locations/5"
         },
         {
             "id": 6,
@@ -80,7 +80,7 @@
                 "Mac Miller"
             ],
             "creationDate": 2007,
-            "locations": "https://localhost:8080/api/locations/6"
+            "locations": "http://localhost:8080/api/locations/6"
         },
         {
             "id": 7,
@@ -90,7 +90,7 @@
                 "Gary Maurice Lucas Jr."
             ],
             "creationDate": 2007,
-            "locations": "https://localhost:8080/api/locations/7"
+            "locations": "http://localhost:8080/api/locations/7"
         },
         {
             "id": 8,
@@ -100,7 +100,7 @@
                 "Kendrick Lamar Duckworth"
             ],
             "creationDate": 2004,
-            "locations": "https://localhost:8080/api/locations/8"
+            "locations": "http://localhost:8080/api/locations/8"
         },
         {
             "id": 9,
@@ -113,7 +113,7 @@
                 "Axl Rose"
             ],
             "creationDate": 1973,
-            "locations": "https://localhost:8080/api/locations/9"
+            "locations": "http://localhost:8080/api/locations/9"
         },
         {
             "id": 10,
@@ -127,7 +127,7 @@
                 "Matt Cameron"
             ],
             "creationDate": 1990,
-            "locations": "https://localhost:8080/api/locations/10"
+            "locations": "http://localhost:8080/api/locations/10"
         },
         {
             "id": 11,
@@ -138,7 +138,7 @@
             ],
 
             "creationDate": 2001,
-            "locations": "https://localhost:8080/api/locations/11"
+            "locations": "http://localhost:8080/api/locations/11"
         },
         {
             "id": 12,
@@ -148,7 +148,7 @@
                 "Robyn Rihanna Fenty"
             ],
             "creationDate": 2003,
-            "locations": "https://localhost:8080/api/locations/12"
+            "locations": "http://localhost:8080/api/locations/12"
         },
         {
             "id": 13,
@@ -162,7 +162,7 @@
                 "Daryl Stuermer"
             ],
             "creationDate": 1967,
-            "locations": "https://localhost:8080/api/locations/13"
+            "locations": "http://localhost:8080/api/locations/13"
         },
         {
             "id": 14,
@@ -172,7 +172,7 @@
                 "Phil Collins"
             ],
             "creationDate": 1966,
-            "locations": "https://localhost:8080/api/locations/14"
+            "locations": "http://localhost:8080/api/locations/14"
         },
         {
             "id": 15,
@@ -185,7 +185,7 @@
                 "John Bonham"
             ],
             "creationDate": 1968,
-            "locations": "https://localhost:8080/api/locations/15"
+            "locations": "http://localhost:8080/api/locations/15"
         },
         {
             "id": 16,
@@ -198,7 +198,7 @@
                 "Billy Cox"                
             ],
             "creationDate": 1966,
-            "locations": "https://localhost:8080/api/locations/16"
+            "locations": "http://localhost:8080/api/locations/16"
         },
         {
             "id": 17,
@@ -210,7 +210,7 @@
                 "Maurice Gibb"
             ],
             "creationDate": 1958,
-            "locations": "https://localhost:8080/api/locations/17"
+            "locations": "http://localhost:8080/api/locations/17"
         },
         {
             "id": 18,
@@ -224,7 +224,7 @@
                 "Don Airey"
             ],
             "creationDate": 1968,
-            "locations": "https://localhost:8080/api/locations/18"
+            "locations": "http://localhost:8080/api/locations/18"
         },
         {
             "id": 19,
@@ -238,7 +238,7 @@
                 "Brad Whitford"
             ],
             "creationDate": 1970,
-            "locations": "https://localhost:8080/api/locations/19"
+            "locations": "http://localhost:8080/api/locations/19"
         },
         {
             "id": 20,
@@ -251,7 +251,7 @@
                 "Pick Withers"
             ],
             "creationDate": 1977,
-            "locations": "https://localhost:8080/api/locations/20"
+            "locations": "http://localhost:8080/api/locations/20"
         },
         {
             "id": 21,
@@ -265,7 +265,7 @@
                 "Samuel Reis de Oliveira"
             ],
             "creationDate": 1995,
-            "locations": "https://localhost:8080/api/locations/21"
+            "locations": "http://localhost:8080/api/locations/21"
         },
         {
             "id": 22,
@@ -279,7 +279,7 @@
                 "Solon Bixler"
             ],
             "creationDate": 1998,
-            "locations": "http://locahost/api/locations/22"
+            "locations": "http://locahost:8080/api/locations/22"
         },
         {
             "id": 23,
@@ -291,7 +291,7 @@
                 "Ben McKee"
             ],
             "creationDate": 2008,
-            "locations": "http://locahost/api/locations/23"
+            "locations": "http://locahost:8080/api/locations/23"
         },
         {
             "id": 24,
@@ -301,7 +301,7 @@
                 " Jarad Higgins"
             ],
             "creationDate": 2015,
-            "locations": "http://locahost/api/locations/24"
+            "locations": "http://locahost:8080/api/locations/24"
         },
         {
             "id": 25,
@@ -311,7 +311,7 @@
                 "Sir Robert Bryson Hall II"
             ],
             "creationDate": 2009,
-            "locations": "http://locahost/api/locations/25"
+            "locations": "http://locahost:8080/api/locations/25"
         },
         {
             "id": 26,
@@ -321,7 +321,7 @@
                 "Jared Leto"
             ],
             "creationDate": 2013,
-            "locations": "http://locahost/api/locations/26"
+            "locations": "http://locahost:8080/api/locations/26"
         },
         {
             "id": 27,
@@ -331,7 +331,7 @@
                 "Bobby McFerrin"
             ],
             "creationDate": 1977,
-            "locations": "http://locahost/api/locations/27"
+            "locations": "http://locahost:8080/api/locations/27"
         },
         {
             "id": 28,
@@ -341,7 +341,7 @@
                 "Fadil El Ghoul"
             ],
             "creationDate": 2008,
-            "locations": "http://locahost/api/locations/28"
+            "locations": "http://locahost:8080/api/locations/28"
         },
         {
             "id": 29,
@@ -351,7 +351,7 @@
                 "Post Malone"
             ],
             "creationDate": 2013,
-            "locations": "http://locahost/api/locations/29"
+            "locations": "http://locahost:8080/api/locations/29"
         },
         {
             "id": 30,
@@ -361,7 +361,7 @@
                 "Travis Scott"
             ],
             "creationDate": 2008,
-            "locations": "http://locahost/api/locations/30"
+            "locations": "http://locahost:8080/api/locations/30"
         },
         {
             "id": 31,
@@ -371,7 +371,7 @@
                 "Jermaine Lamarr Cole"
             ],
             "creationDate": 2007,
-            "locations": "http://locahost/api/locations/31"
+            "locations": "http://locahost:8080/api/locations/31"
         },
         {
             "id": 32,
@@ -383,7 +383,7 @@
                 "Jeff Ament"
             ],
             "creationDate": 1962,
-            "locations": "http://locahost/api/locations/32"
+            "locations": "http://locahost:8080/api/locations/32"
         },
         {
             "id": 33,
@@ -394,7 +394,7 @@
                 "Havoc"
             ],
             "creationDate": 1991,
-            "locations": "http://locahost/api/locations/33"
+            "locations": "http://locahost:8080/api/locations/33"
         },
         {
             "id": 34,
@@ -410,7 +410,7 @@
                 "Melissa Reese"
             ],
             "creationDate": 1985,
-            "locations": "http://locahost/api/locations/35"
+            "locations": "http://locahost:8080/api/locations/35"
         },
         {
             "id": 35,
@@ -426,7 +426,7 @@
                 "Arabian Prince"
             ],
             "creationDate": 1998,
-            "locations": "http://locahost/api/locations/37"
+            "locations": "http://locahost:8080/api/locations/37"
         },
         {
             "id": 36,
@@ -442,7 +442,7 @@
                 "Dick Evans"
             ],
             "creationDate": 1976,
-            "locations": "http://locahost/api/locations/38"
+            "locations": "http://locahost:8080/api/locations/38"
         },
         {
             "id": 37,
@@ -457,7 +457,7 @@
                 "Glyn Jones"
             ],
             "creationDate": 2002,
-            "locations": "http://locahost/api/locations/39"
+            "locations": "http://locahost:8080/api/locations/39"
         },
         {
             "id": 38,
@@ -470,7 +470,7 @@
                 "Joe Trohman"
             ],
             "creationDate": 2001,
-            "locations": "http://locahost/api/locations/40"
+            "locations": "http://locahost:8080/api/locations/40"
         },
         {
             "id": 39,
@@ -482,7 +482,7 @@
                 "Remi Kabaka Jr."
             ],
             "creationDate": 1998,
-            "locations": "http://locahost/api/locations/41"
+            "locations": "http://locahost:8080/api/locations/41"
         },
         {
             "id": 40,
@@ -495,7 +495,7 @@
                 "Bernie Leadon"
             ],
             "creationDate": 1971,
-            "locations": "http://locahost/api/locations/42"
+            "locations": "http://locahost:8080/api/locations/42"
         },
         {
             "id": 41,
@@ -510,7 +510,7 @@
                 "Rob Bourdon"
             ],
             "creationDate": 1996,
-            "locations": "http://locahost/api/location/43"
+            "locations": "http://locahost:8080/api/location/43"
         },
         {
             "id": 42,
@@ -523,7 +523,7 @@
                 "Josh Klinghoffer"
             ],
             "creationDate": 1983,
-            "locations": "http://locahost/api/location/44"
+            "locations": "http://locahost:8080/api/location/44"
         },
         {
             "id": 43,
@@ -533,7 +533,7 @@
                 "Marshall Bruce Mathers"
             ],
             "creationDate": 1996,
-            "locations": "http://locahost/api/location/45"
+            "locations": "http://locahost:8080/api/location/45"
         },
         {
             "id": 44,
@@ -545,7 +545,7 @@
                 "Tré Cool"
             ],
             "creationDate": 1986,
-            "locations": "http://locahost/api/location/46"
+            "locations": "http://locahost:8080/api/location/46"
         },
         {
             "id": 45,
@@ -558,7 +558,7 @@
                 "Robert Trujillo"
             ],
             "creationDate": 1981,
-            "locations": "http://locahost/api/location/47"
+            "locations": "http://locahost:8080/api/location/47"
         },
         {
             "id": 46,
@@ -571,7 +571,7 @@
                 "Will Champion"
             ],
             "creationDate": 1996,
-            "locations": "http://locahost/api/location/48"
+            "locations": "http://locahost:8080/api/location/48"
         },
         {
         "id": 47,
@@ -587,7 +587,7 @@
                 "Sam Farrar"
             ],
             "creationDate": 1994,
-            "locations": "http://locahost/api/location/49"
+            "locations": "http://locahost:8080/api/location/49"
         },
         {
             "id": 48,
@@ -598,7 +598,7 @@
                     "Josh Dun"
                 ],
                 "creationDate": 2009,
-                "locations": "http://locahost/api/location/50"
+                "locations": "http://locahost:8080/api/location/50"
         },
         {
             "id": 49,
@@ -611,7 +611,7 @@
                     "Ron Wood"
                 ],
                 "creationDate": 1962,
-                "locations": "http://locahost/api/location/51"
+                "locations": "http://locahost:8080/api/location/51"
         },
         {
             "id": 50,
@@ -623,7 +623,7 @@
                     "Dominic Howard "
                ],
                 "creationDate": 1994,
-                "locations": "http://locahost/api/location/52"
+                "locations": "http://locahost:8080/api/location/52"
         },
         {
             "id": 51,
@@ -638,7 +638,7 @@
                     "Rami Jaffee"
                ],
                 "creationDate": 1994,
-                "locations": "http://locahost/api/location/53"
+                "locations": "http://locahost:8080/api/location/53"
         },
         {
             "id": 52,
@@ -651,7 +651,7 @@
                     "Tony Ann"
                ],
                 "creationDate": 2008,
-                "locations": "http://locahost/api/location/54"
+                "locations": "http://locahost:8080/api/location/54"
         }
     ]
 }

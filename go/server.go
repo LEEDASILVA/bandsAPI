@@ -235,6 +235,7 @@ func main() {
 	joinStructs(dats, locs)
 
 	//Route Handlers / Endpoints
+	r.Handle("/", http.FileServer(http.Dir("./../images")))
 	r.HandleFunc("/api", getLink).Methods("GET")
 	r.HandleFunc("/api/artists", getArtists).Methods("GET")
 	r.HandleFunc("/api/locations", getLocations).Methods("GET")
