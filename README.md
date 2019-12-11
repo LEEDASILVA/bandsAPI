@@ -1,4 +1,4 @@
-# RustAPI
+# RestAPI
 
 ## Introduction
 
