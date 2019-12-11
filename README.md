@@ -15,14 +15,14 @@ usr/bandsAPI/go$
 
 ## REST
 
-- URL: http://localhost:8080/api
+- URL: `http://localhost:8080/api`
 
 The main resources are :
 
-- http://localhost:8080/api/artists will show all the artists
-- http://localhost:8080/api/locations will show all locations
-- http://localhost:8080/api/dates will show all dates
-- http://localhost:8080/api/relation will show relations between the locations and the dates
+- `http://localhost:8080/api/artists` will show all the artists
+- `http://localhost:8080/api/locations` will show all locations
+- `http://localhost:8080/api/dates` will show all dates
+- `http://localhost:8080/api/relation` will show relations between the locations and the dates
 
 ### Format example
 
