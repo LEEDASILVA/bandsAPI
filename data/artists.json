@@ -2,7 +2,7 @@
     "index":[
         {
             "id": 1,
-            "image" : "queen.jpeg",
+            "image" : "http://localhost:8080/queen.jpeg",
             "name" : "Queen",
             "members" : [
                 "Freddie Mercury",

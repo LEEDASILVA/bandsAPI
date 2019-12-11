@@ -20,7 +20,7 @@ type Artist struct {
 	Image        string   `json:"image"`
 	Name         string   `json:"name"`
 	Members      []string `json:"members"`
-	CreationDate string   `json:"creationDate"`
+	CreationDate int      `json:"creationDate"`
 	Locations    string   `json:"locations"`
 }
 
@@ -68,10 +68,17 @@ func handleError(err error) {
 
 func getLink(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	byt := []byte(` { artists: "http://localhost:8080/api/artists" },
-    				{ locations: "http://localhost:8080/api/locations" },
-    				{ dates: "http://localhost:8080/api/dates" }`)
-	json.NewEncoder(w).Encode(byt)
+	type a struct {
+		A string `json:"artists"`
+		L string `json:"locations"`
+		D string `json:"dates"`
+	}
+	res := a{}
+	str := `{ "artists": "http://localhost:8080/api/artists",
+	"locations": "http://localhost:8080/api/locations",
+	"dates": "http://localhost:8080/api/dates" }`
+	json.Unmarshal([]byte(str), &res)
+	json.NewEncoder(w).Encode(res)
 }
 
 //Get All Artists
