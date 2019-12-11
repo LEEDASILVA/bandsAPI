@@ -1,8 +1,11 @@
 package main
 
 import (
+	"bytes"
 	"encoding/json"
 	"fmt"
+	"image"
+	"image/jpeg"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -67,6 +70,40 @@ func handleError(err error) {
 	}
 }
 
+//decode the image and returns it
+func loadImage(filename string) image.Image {
+	f, err := os.Open(filename)
+
+	if err != nil {
+		//just to remove the package log
+		fmt.Println(err.Error())
+		os.Exit(1)
+	}
+	//it will exetude this if the function finally returns the statment
+	defer f.Close()
+
+	img, err := jpeg.Decode(f)
+	if err != nil {
+		//just to remove the package log
+		fmt.Println(err.Error())
+		os.Exit(1)
+	}
+	return img
+}
+
+func getImages(w http.ResponseWriter, r *http.Request) {
+	buffer := new(bytes.Buffer)
+	if err := jpeg.Encode(buffer, loadImage(), nil); err != nil {
+		log.Println("unable to encode image.")
+	}
+
+	w.Header().Set("Content-Type", "image/jpeg")
+	w.Header().Set("Content-Length", strconv.Itoa(len(buffer.Bytes())))
+	if _, err := w.Write(buffer.Bytes()); err != nil {
+		log.Println("unable to write image.")
+	}
+}
+
 func getLink(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	type a struct {
@@ -85,7 +122,7 @@ func getLink(w http.ResponseWriter, r *http.Request) {
 //Get All Artists
 func getArtists(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(bands)
+	json.NewEncoder(w).Encode(artists)
 }
 
 func getLocations(w http.ResponseWriter, r *http.Request) {
@@ -278,7 +315,7 @@ func main() {
 	joinStructs(dats, locs)
 
 	//Route Handlers / Endpoints
-	r.Handle("/", http.FileServer(http.Dir("./../images")))
+	r.HandleFunc("/api/images", getImages).Methods("GET")
 	r.HandleFunc("/api", getLink).Methods("GET")
 	r.HandleFunc("/api/artists", getArtists).Methods("GET")
 	r.HandleFunc("/api/locations", getLocations).Methods("GET")

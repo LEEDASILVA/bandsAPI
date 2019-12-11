@@ -649,34 +649,6 @@
                 "milan-italy"
             ],
             "dates": "http://locahost:8080/api/dates/54"
-        },
-        {
-            "id":53,
-            "locations": [
-                "dana_point-california",
-                "rio_de_janeiro",
-                "los_angeles-california",
-                "gulf_shores-alabama",
-                "boston-massachusetts ",
-                "athens-grece",
-                "florence-italia",
-                "landgraaf-netherlands"
-            ],
-             "dates": "http://locahost:8080/api/dates/44"
-        },
-        {
-            "id":54,
-            "locations": [
-                "dana_point-california",
-                "rio_de_janeiro",
-                "los_angeles-california",
-                "gulf_shores-alabama",
-                "boston-massachusetts ",
-                "athens-grece",
-                "florence-italia",
-                "landgraaf-netherlands"
-            ],
-             "dates": "http://locahost:8080/api/dates/44"
         }
     ]
 }
