@@ -26,6 +26,8 @@ type Artist struct {
 	Members      []string `json:"members"`
 	CreationDate int      `json:"creationDate"`
 	Locations    string   `json:"locations"`
+	Dates        string   `json:"dates`
+	Relations    string   `json:"relations"`
 }
 
 type Locs struct {
@@ -93,7 +95,8 @@ func loadImage(filename string) image.Image {
 
 func getImages(w http.ResponseWriter, r *http.Request) {
 	buffer := new(bytes.Buffer)
-	if err := jpeg.Encode(buffer, loadImage(), nil); err != nil {
+
+	if err := jpeg.Encode(buffer, loadImage("../images/queen.jpeg"), nil); err != nil {
 		log.Println("unable to encode image.")
 	}
 
