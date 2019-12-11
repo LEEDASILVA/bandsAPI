@@ -1,6 +1,273 @@
 {
     "index":[
         {
+            "id": 1,
+            "image" : "queen.jpeg",
+            "name" : "Queen",
+            "members" : [
+                "Freddie Mercury",
+                "Brian May",
+                "John Daecon",
+                "Roger Meddows-Taylor",
+                "Mike Grose",
+                "Barry Mitchell",
+                "Doug Fogie"
+            ],
+            "creationDate": 1970,
+            "locations": "https://localhost:8080/api/locations/1"
+        },
+        {
+            "id": 2,
+            "image" : "soja.jpeg",
+            "name" : "SOJA",
+            "members" : [
+                "Jacob Hemphill",
+                "Bob Jefferson",
+                "Ryan \"Byrd\" Berty",
+                "Ken Brownell",
+                "Patrick O'Shea",
+                "Hellman Escorcia",
+                "Rafael Rodriguez",
+                "Trevor Young"
+            ],
+            "creationDate": 1997,
+            "locations": "https://localhost:8080/api/locations/2"
+        },
+        {
+            "id": 3,
+            "image" : "pinkfloyd.jpeg",
+            "name" : "Pink Floyd",
+            "members" : [
+                "David Gilmour",
+                "Syd Barrett",
+                "Roger Waters",
+                "Richard Wright",
+                "Nick Manson",
+                "Bob Klose"
+            ],
+            "creationDate": 1965,
+            "locations": "https://localhost:8080/api/locations/3"
+        },
+        {
+            "id": 4,
+            "image" : "scorpions.jpeg",
+            "name" : "Scorpions",
+            "members" : [
+                "Klaus Meine",
+                "Rudolf Schenker",
+                "Matthias Jabs",
+                "Pawel Maciwoda",
+                "Mikkey Dee"
+            ],
+            "creationDate": 1965,
+            "locations": "https://localhost:8080/api/locations/4"
+        },
+        {
+            "id": 5,
+            "image" : "xxx.jpeg",
+            "name" : "XXXTentacion",
+            "members" : [
+                "Jahseh Dwayne Ricardo Onfroy"
+            ],
+            "creationDate": 2013,
+            "locations": "https://localhost:8080/api/locations/5"
+        },
+        {
+            "id": 6,
+            "image" : "macmiller.jpeg",
+            "name" : "Malcolm James McCormick",
+            "members" : [
+                "Mac Miller"
+            ],
+            "creationDate": 2007,
+            "locations": "https://localhost:8080/api/locations/6"
+        },
+        {
+            "id": 7,
+            "image" : "joynerlucas.jpeg",
+            "name" : "Joyner Lucas",
+            "members" : [
+                "Gary Maurice Lucas Jr."
+            ],
+            "creationDate": 2007,
+            "locations": "https://localhost:8080/api/locations/7"
+        },
+        {
+            "id": 8,
+            "image" : "kendricklamar.jpeg",
+            "name" : "Kendrick Lamar",
+            "members" : [
+                "Kendrick Lamar Duckworth"
+            ],
+            "creationDate": 2004,
+            "locations": "https://localhost:8080/api/locations/8"
+        },
+        {
+            "id": 9,
+            "image" : "acdc.jpeg",
+            "name" : "ACDC",
+            "members" : [
+                "Angus Young",
+                "Chris Slade",
+                "Stevie Young",
+                "Axl Rose"
+            ],
+            "creationDate": 1973,
+            "locations": "https://localhost:8080/api/locations/9"
+        },
+        {
+            "id": 10,
+            "image" : "pearljam.jpeg",
+            "name" : "Pearl Jam",
+            "members" : [
+                "Eddie Vedder",
+                "Mike McCready",
+                "Stone Gossard",
+                "Jeff Ament",
+                "Matt Cameron"
+            ],
+            "creationDate": 1990,
+            "locations": "https://localhost:8080/api/locations/10"
+        },
+        {
+            "id": 11,
+            "image" : "katyperry.jpeg",
+            "name" : "Katy Perry",
+            "members" : [
+                "Katheryn Elizabeth Hudson"
+            ],
+
+            "creationDate": 2001,
+            "locations": "https://localhost:8080/api/locations/11"
+        },
+        {
+            "id": 12,
+            "image" : "rihanna.jpeg",
+            "name" : "Rihanna",
+            "members" : [
+                "Robyn Rihanna Fenty"
+            ],
+            "creationDate": 2003,
+            "locations": "https://localhost:8080/api/locations/12"
+        },
+        {
+            "id": 13,
+            "image" : "genesis.jpeg",
+            "name" : "Genesis",
+            "members" : [
+                "Mike Rutherford",
+                "Tony Banks",
+                "Phil Collins",
+                "Chester Thompson",
+                "Daryl Stuermer"
+            ],
+            "creationDate": 1967,
+            "locations": "https://localhost:8080/api/locations/13"
+        },
+        {
+            "id": 14,
+            "image" : "philcollins.jpeg",
+            "name" : "Phil Collins",
+            "members" : [
+                "Phil Collins"
+            ],
+            "creationDate": 1966,
+            "locations": "https://localhost:8080/api/locations/14"
+        },
+        {
+            "id": 15,
+            "image" : "ledzeppelin.jpeg",
+            "name" : "Led Zeppelin",
+            "members" : [
+                "Jimmy Page",
+                "John Paul Jones",
+                "Robert Plant",
+                "John Bonham"
+            ],
+            "creationDate": 1968,
+            "locations": "https://localhost:8080/api/locations/15"
+        },
+        {
+            "id": 16,
+            "image" : "jimihendrix.jpeg",
+            "name" : "The Jimi Hendrix Experience",
+            "members" : [
+                "Jimi Hendrix",
+                "Mitch Mitchell",
+                "Noel Redding",
+                "Billy Cox"                
+            ],
+            "creationDate": 1966,
+            "locations": "https://localhost:8080/api/locations/16"
+        },
+        {
+            "id": 17,
+            "image" : "beegees.jpeg",
+            "name" : "Bee Gees",
+            "members" : [
+                "Barry Gib",
+                "Robin Gibb",
+                "Maurice Gibb"
+            ],
+            "creationDate": 1958,
+            "locations": "https://localhost:8080/api/locations/17"
+        },
+        {
+            "id": 18,
+            "image" : "deeppurple.jpeg",
+            "name" : "Deep Purple",
+            "members" : [
+                "Ian Paice",
+                "Ian Gillan",
+                "Roger Glover",
+                "Steve Morse",
+                "Don Airey"
+            ],
+            "creationDate": 1968,
+            "locations": "https://localhost:8080/api/locations/18"
+        },
+        {
+            "id": 19,
+            "image" : "aerosmith.jpeg",
+            "name" : "Aerosmith",
+            "members" : [
+                "Steven Tyler",
+                "Tom Hamilton",
+                "Joey Kramer",
+                "Joe Perry",
+                "Brad Whitford"
+            ],
+            "creationDate": 1970,
+            "locations": "https://localhost:8080/api/locations/19"
+        },
+        {
+            "id": 20,
+            "image" : "direstraits.jpeg",
+            "name" : "Dire Straits",
+            "members" : [
+                "Mark Knopfler",
+                "David Knopfler",
+                "John Illsley",
+                "Pick Withers"
+            ],
+            "creationDate": 1977,
+            "locations": "https://localhost:8080/api/locations/20"
+        },
+        {
+            "id": 21,
+            "image" : "mamonasassassinas.jpeg",
+            "name" : "Mamonas Assassinas",
+            "members" : [
+                "Dinho",
+                "Bento Hinoto",
+                "Júlio Rasec",
+                "Sérgio Reoli",
+                "Samuel Reis de Oliveira"
+            ],
+            "creationDate": 1995,
+            "locations": "https://localhost:8080/api/locations/21"
+        },
+        {
             "id": 22,
             "image" : "30.jpg",
             "name" : "Thirty Seconds to Mars",

@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strings"
 
 	"github.com/gorilla/mux"
 )
@@ -62,6 +63,12 @@ var dates []Dates
 var datslocs DatsLocs
 var datloc DatLoc
 
+func handleError(err error) {
+	if err != nil {
+		log.Panic(err)
+	}
+}
+
 //Get All Artists
 func getArtists(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
@@ -89,25 +96,24 @@ func getArtist(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(&Artist{})
 }
 
-func getJSON(jsonfile, types string) {
+func getJSON(jsonfile string) {
 	jsonFile, err := os.Open(jsonfile)
-	if err != nil {
-		fmt.Println(err)
-	}
+	handleError(err)
 
 	fmt.Printf("Successfully Opened %v\n", jsonfile)
 
 	// read our opened xmlFile as a byte array.
-	byteValue, _ := ioutil.ReadAll(jsonFile)
+	byteValue, err := ioutil.ReadAll(jsonFile)
+	handleError(err)
+	types := strings.TrimPrefix(
+		strings.TrimSuffix(jsonfile, ".json"), "../data/")
 
 	switch types {
 	case "artists":
 		var b Bands
 
-		errors := json.Unmarshal(byteValue, &b)
-		if errors != nil {
-			fmt.Println(errors)
-		}
+		err := json.Unmarshal(byteValue, &b)
+		handleError(err)
 
 		for i := 0; i < len(b.Index); i++ {
 			elem := b.Index[i]
@@ -117,11 +123,9 @@ func getJSON(jsonfile, types string) {
 
 	case "locations":
 		var l Locs
-		errors := json.Unmarshal(byteValue, &l)
+		err := json.Unmarshal(byteValue, &l)
+		handleError(err)
 
-		if errors != nil {
-			fmt.Println(errors)
-		}
 		for i := 0; i < len(l.Index); i++ {
 			elem := l.Index[i]
 			locations = append(locations, elem)
@@ -130,11 +134,9 @@ func getJSON(jsonfile, types string) {
 
 	case "dates":
 		var d Dats
-		errors := json.Unmarshal(byteValue, &d)
+		err := json.Unmarshal(byteValue, &d)
+		handleError(err)
 
-		if errors != nil {
-			fmt.Println(errors)
-		}
 		for i := 0; i < len(d.Index); i++ {
 			elem := d.Index[i]
 			dates = append(dates, elem)
@@ -201,9 +203,9 @@ func getDates(d Dates) [][]string {
 func main() {
 	r := mux.NewRouter()
 
-	getJSON("../data/artists.json", "artists")
-	getJSON("../data/locations.json", "locations")
-	getJSON("../data/dates.json", "dates")
+	getJSON("../data/artists.json")
+	getJSON("../data/locations.json")
+	getJSON("../data/dates.json")
 
 	if datslocs.DatsLocs == nil {
 		datslocs.DatsLocs = make(map[string][]string)
@@ -220,6 +222,6 @@ func main() {
 	// r.HandleFunc("/api/artists/{id}", updateArtist).Methods("PUT")
 	// r.HandleFunc("/api/artists/{id}", deleteArtist).Methods("DELETE")
 
-	fmt.Println("Server running on port 8000")
-	log.Fatal(http.ListenAndServe(":8000", r))
+	fmt.Println("Server running on port 8080")
+	log.Fatal(http.ListenAndServe(":8080", r))
 }
