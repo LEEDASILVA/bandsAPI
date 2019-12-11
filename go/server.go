@@ -68,7 +68,10 @@ func handleError(err error) {
 
 func getLink(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode("http://localhost:8080/api/artists http://localhost:8080/api/locations http://localhost:8080/api/dates")
+	byt := []byte(` { artists: "http://localhost:8080/api/artists" },
+    				{ locations: "http://localhost:8080/api/locations" },
+    				{ dates: "http://localhost:8080/api/dates" }`)
+	json.NewEncoder(w).Encode(byt)
 }
 
 //Get All Artists
