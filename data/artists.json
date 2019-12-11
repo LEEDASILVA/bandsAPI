@@ -499,7 +499,7 @@
         },
         {
             "id": 41,
-            "image" : "Linkin Park.jpeg",
+            "image" : "linkinpark.jpeg",
             "name" : "Linkin Park",
             "members" : [
                 "Chester Bennington",
@@ -514,7 +514,7 @@
         },
         {
             "id": 42,
-            "image" : "Red Hot Chili Peppers.jpeg",
+            "image" : "redrotchilipeppers.jpeg",
             "name" : "Red Hot Chili Peppers",
             "members" : [
                 "Anthony Kiedis",
@@ -527,7 +527,7 @@
         },
         {
             "id": 43,
-            "image" : "Eminem.jpeg",
+            "image" : "eminem.jpeg",
             "name" : "Eminem",
             "members" : [
                 "Marshall Bruce Mathers"
@@ -537,7 +537,7 @@
         },
         {
             "id": 44,
-            "image" : "Greenday.jpeg",
+            "image" : "greenday.jpeg",
             "name" : "Green Day",
             "members" : [
                 "Billie Joe Armstrong",
@@ -549,7 +549,7 @@
         },
         {
             "id": 45,
-            "image" : "Metallica.jpeg",
+            "image" : "metallica.jpeg",
             "name" : "Metallica",
             "members" : [
                 "James Hetfield",
@@ -562,7 +562,7 @@
         },
         {
             "id": 46,
-            "image" : "Coldplay.jpeg",
+            "image" : "coldplay.jpeg",
             "name" : "Coldplay",
             "members" : [
                 "Chris Martin",
@@ -575,7 +575,7 @@
         },
         {
         "id": 47,
-            "image" : "Maroon5.jpeg",
+            "image" : "maroon5.jpeg",
             "name" : "Maroon5",
             "members" : [
                 "Adam Levine",
@@ -591,7 +591,7 @@
         },
         {
             "id": 48,
-                "image" : "Twenty One Pilots.jpeg",
+                "image" : "twentyonepilots.jpeg",
                 "name" : "Twenty One Pilots ",
                 "members" : [
                     "Tyler Joseph",
@@ -602,7 +602,7 @@
         },
         {
             "id": 49,
-                "image" : "The Rolling Stones.jpeg",
+                "image" : "therollingstones.jpeg",
                 "name" : "The Rolling Stones",
                 "members" : [
                     "Mick Jagger ",
@@ -615,7 +615,7 @@
         },
         {
             "id": 50,
-                "image" : "Muse.jpeg",
+                "image" : "muse.jpeg",
                 "name" : "Muse",
                 "members" : [
                     "Matthew Bellamy",
@@ -627,7 +627,7 @@
         },
         {
             "id": 51,
-                "image" : "Foo Fighters.jpeg",
+                "image" : "foofighters.jpeg",
                 "name" : "Foo Fighters",
                 "members" : [
                     "Dave Grohl",
@@ -642,7 +642,7 @@
         },
         {
             "id": 52,
-                "image" : "The Chainsmokers.jpeg",
+                "image" : "thechainsmokers.jpeg",
                 "name" : "The Chainsmokers",
                 "members" : [
                     "Alexander Pall",
