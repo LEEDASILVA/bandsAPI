@@ -282,6 +282,186 @@
                 "houston-usa"
             ],
             "dates":"http://localhost:8080/api/dates/40"
+        },
+        {
+            "id":41,
+            "locations": [
+                "california-usa",
+                "birmingham-uk",
+                "brixton-uk",
+                "london-uk",
+                "rotselaar-belgium"
+            ],
+           "dates": "http://locahost/api/dates/43"
+        },
+        {
+            "id":42,
+            "locations": [
+                "dana_point-california",
+                "rio_de_janeiro",
+                "los_angeles-california",
+                "gulf_shores-alabama",
+                "boston-massachusetts ",
+                "athens-grece",
+                "florence-italia",
+                "landgraaf-netherlands"
+            ],
+             "dates": "http://locahost/api/dates/44"
+        },
+        {
+            "id":43,
+            "locations": [
+                "sydney-australia",
+                "melbourne-australia",
+                "burswood-australia",
+                "wellington-new_zealand",
+                "abu_dhabi-united_arab_emirates"
+            ],
+             "dates": "http://locahost/api/dates/45"
+        },
+        {
+            "id":44,
+            "locations": [
+                "madrid-spain",
+                "seville-spain",
+                "los_Angeles-california-usa",
+                "bangkok-thailand",
+                "manila-philippines",
+                "taipei-taiwan",
+                "hong_kong-china",
+                "seoul-korea"
+            ],
+            "dates": "http://locahost/api/dates/46"
+        },
+        {
+            "id":45,
+            "locations": [
+                "munich-germany",
+                "mannheim-germany",
+                "san_francisco-california-usa",
+                "santiago-chile",
+                "buenos_aires-argentina",
+                "porto_alegre-brazil",
+                "são_paulo-brazil",
+                "belo_horizonte-brazil"
+             ],
+            "dates": "http://locahost/api/dates/47"
+        },
+        {
+            "id":46,
+            "locations": [
+                "san_diego-california-usa",
+                "são_paulo-brazil",
+                "porto_alegre-brazil",
+                "la_plata-argentina",
+                "london-uk"
+            ],
+        "dates": "http://locahost/api/dates/48"
+        },
+        {
+            "id":47,
+            "locations": [
+                "dubai-united_arab_emirates",
+                "willemstad-netherlands_antilles",
+                "hollywood-florida-usa",
+                "miami-florida-usa",
+                "mexico_city-mexico",
+                "santiago-chile",
+                "são_paulo-brazil",
+                "brasilia-brazil"
+            ],
+            "dates": "http://locahost/api/dates/49"
+        },
+        {
+            "id":48,
+            "locations": [
+                "fort_worth-texas-usa",
+                "tulsa-oklahoma-usa",
+                "anaheim-california-usa",
+                "chicago-illinois-usa",
+                "scheessel-germany",
+                "st_gallen-switzerland",
+                "gdynia-poland",
+                "arras-france"
+            ],
+            "dates": "http://locahost/api/dates/50"
+        },
+        {
+            "id":49,
+            "locations": [
+                "seattle-washington-usa",
+                "santa_clara-california-usa",
+                "pasadena-california-usa",
+                "glendale-arizona-usa",
+                "miami-florida-usa"
+            ],
+            "dates": "http://locahost/api/dates/51"
+        },
+        {
+            "id":50,
+            "locations": [
+                "mexico_city-mexico",
+                "são_paulo-brazil",
+                "buenos_aires-argentina",
+                "santiago-chile",
+                "lima-peru"
+            ],
+            "dates": "http://locahost/api/dates/52"
+        },
+        {
+            "id":51,
+            "locations": [
+                "bogota-colombia",
+                "san_jose-costa_rica",
+                "las_vegas-nevada-usa",
+                "cambridge-massachusetts-usa",
+                "boston-massachusetts-usa",
+                "nickelsdorf-austria",
+                "milan-italy",
+                "lisbon-portugal"
+            ],
+            "dates": "http://locahost/api/dates/53"
+        },
+        {
+            "id":52,
+            "locations": [
+                "portland-oregon-usa",
+                "vancouver-canada",
+                "las_vegas-nevada-usa",
+                "aspen-colorado-usa",
+                "munich-germany",
+                "prague-czech_republic",
+                "milan-italy"
+            ],
+            "dates": "http://locahost/api/dates/54"
+        },
+        {
+            "id":53,
+            "locations": [
+                "dana_point-california",
+                "rio_de_janeiro",
+                "los_angeles-california",
+                "gulf_shores-alabama",
+                "boston-massachusetts ",
+                "athens-grece",
+                "florence-italia",
+                "landgraaf-netherlands"
+            ],
+             "dates": "http://locahost/api/dates/44"
+        },
+        {
+            "id":54,
+            "locations": [
+                "dana_point-california",
+                "rio_de_janeiro",
+                "los_angeles-california",
+                "gulf_shores-alabama",
+                "boston-massachusetts ",
+                "athens-grece",
+                "florence-italia",
+                "landgraaf-netherlands"
+            ],
+             "dates": "http://locahost/api/dates/44"
         }
     ]
 }

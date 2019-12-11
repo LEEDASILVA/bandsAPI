@@ -76,7 +76,9 @@ let relation = {};
 const getRelation = () => {
   locations.index.forEach(ele => {
     dates.index.forEach(dEle => {
-
+      if (ele.id === ele.id) { 
+        ele.location
+       }
     });
   });
 };
