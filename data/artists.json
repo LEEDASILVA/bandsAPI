@@ -342,7 +342,7 @@
                 "Solon Bixler"
             ],
             "creationDate": 1998,
-            "firstSingle": "23-06-2002",
+            "firstSingle": "27-06-2002",
             "locations": "http://locahost:8080/api/locations/22",
             "consertDates": "http://localhost:8080/api/dates/22",
             "relations": "http://localhost:8080/api/relation/22"
@@ -370,7 +370,7 @@
                 " Jarad Higgins"
             ],
             "creationDate": 2015,
-            "firstSingle": "01-01-2015",
+            "firstSingle": "23-05-2018",
             "locations": "http://locahost:8080/api/locations/24",
             "consertDates": "http://localhost:8080/api/dates/24",
             "relations": "http://localhost:8080/api/relation/24"
@@ -396,7 +396,7 @@
                 "Jared Leto"
             ],
             "creationDate": 2013,
-            "firstSingle": "30-05-2017",
+            "firstSingle": "15-11-2018",
             "locations": "http://locahost:8080/api/locations/26",
             "consertDates": "http://localhost:8080/api/dates/26",
             "relations": "http://localhost:8080/api/relation/26"
@@ -409,7 +409,7 @@
                 "Bobby McFerrin"
             ],
             "creationDate": 1977,
-            "firstSingle": "01-09-1988",
+            "firstSingle": "01-09-1982",
             "locations": "http://locahost:8080/api/locations/27",
             "consertDates": "http://localhost:8080/api/dates/27",
             "relations": "http://localhost:8080/api/relation/27"
@@ -422,7 +422,7 @@
                 "Fadil El Ghoul"
             ],
             "creationDate": 2008,
-            "firstSingle": "15-09-2017",
+            "firstSingle": "09-12-2014",
             "locations": "http://locahost:8080/api/locations/28",
             "consertDates": "http://localhost:8080/api/dates/28",
             "relations": "http://localhost:8080/api/relation/28"

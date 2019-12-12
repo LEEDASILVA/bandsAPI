@@ -25,7 +25,7 @@ type Artist struct {
 	Name         string   `json:"name"`
 	Members      []string `json:"members"`
 	CreationDate int      `json:"creationDate"`
-	FirstSingle  string   `json:"firstSingle"`
+	FirstAlbum   string   `json:"firstAlbum"`
 	Locations    string   `json:"locations"`
 	ConsertDates string   `json:"consertDates"`
 	Relations    string   `json:"relations"`
