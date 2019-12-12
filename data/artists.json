@@ -327,8 +327,8 @@
         },
         {
             "id": 23,
-            "image" : "http://localhost:8080/api/images/imaginDragons.jpeg",
-            "name" : "Imagin Dragon",
+            "image" : "http://localhost:8080/api/images/imagineDragons.jpeg",
+            "name" : "Imagine Dragon",
             "members" : [
                 "Dan Reynolds",
                 "Daniel Wayne Sermon",
