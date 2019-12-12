@@ -72,7 +72,7 @@
         },
         {
             "id": 5,
-            "image" : "http://localhost:8080/api/images/xxx.jpeg",
+            "image" : "http://localhost:8080/api/images/xxxtentacion.jpeg",
             "name" : "XXXTentacion",
             "members" : [
                 "Jahseh Dwayne Ricardo Onfroy"
@@ -401,7 +401,7 @@
         },
         {
             "id": 29,
-            "image" : "Post http://localhost:8080/api/images/Malone.jpeg",
+            "image" : "Post http://localhost:8080/api/images/postmalone.jpeg",
             "name" : "Post Malone",
             "members" : [
                 "Post Malone"
@@ -437,14 +437,18 @@
         },
         {
             "id": 32,
-            "image" : "http://localhost:8080/api/images/pearlJam.jpeg",
-            "name" : "Pearl Jam",
+            "image" : "http://localhost:8080/api/images/nickelback.jpeg",
+            "name" : "Nickelback",
             "members" : [
-                "Eddie Vedder",
-                "Mike McCready",
-                "Jeff Ament"
+                "Chad Kroeger",
+                "Ryan Peake",
+                "Mike Kroeger",
+                "Daniel Adair",
+                "Brandon Kroeger",
+                "Ryan Vikedal",
+                "Mitch Guindon"
             ],
-            "creationDate": 1962,
+            "creationDate": 1995,
             "locations": "http://locahost:8080/api/locations/32",
             "consertDates": "http://localhost:8080/api/dates/32",
             "relations": "http://localhost:8080/api/relation/32"
