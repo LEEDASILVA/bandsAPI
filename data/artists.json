@@ -14,6 +14,7 @@
                 "Doug Fogie"
             ],
             "creationDate": 1970,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/1",
             "consertDates": "http://localhost:8080/api/dates/1",
             "relations": "http://localhost:8080/api/relation/1"
@@ -33,6 +34,7 @@
                 "Trevor Young"
             ],
             "creationDate": 1997,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/2",
             "consertDates": "http://localhost:8080/api/dates/2",
             "relations": "http://localhost:8080/api/relation/2"
@@ -50,6 +52,7 @@
                 "Bob Klose"
             ],
             "creationDate": 1965,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/3",
             "consertDates": "http://localhost:8080/api/dates/3",
             "relations": "http://localhost:8080/api/relation/3"
@@ -66,6 +69,7 @@
                 "Mikkey Dee"
             ],
             "creationDate": 1965,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/4",
             "consertDates": "http://localhost:8080/api/dates/4",
             "relations": "http://localhost:8080/api/relation/4"
@@ -78,6 +82,7 @@
                 "Jahseh Dwayne Ricardo Onfroy"
             ],
             "creationDate": 2013,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/5",
             "consertDates": "http://localhost:8080/api/dates/5",
             "relations": "http://localhost:8080/api/relation/5"
@@ -90,6 +95,7 @@
                 "Mac Miller"
             ],
             "creationDate": 2007,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/6",
             "consertDates": "http://localhost:8080/api/dates/6",
             "relations": "http://localhost:8080/api/relation/6"
@@ -102,18 +108,20 @@
                 "Gary Maurice Lucas Jr."
             ],
             "creationDate": 2007,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/7",
             "consertDates": "http://localhost:8080/api/dates/7",
             "relations": "http://localhost:8080/api/relation/7"
         },
         {
             "id": 8,
-            "image" : "http://localhost:8080/api/images/kendricklamar.jpeg",
+            "image" : "http://localhost:8080/api/images/kencricklamar.jpeg",
             "name" : "Kendrick Lamar",
             "members" : [
                 "Kendrick Lamar Duckworth"
             ],
             "creationDate": 2004,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/8",
             "consertDates": "http://localhost:8080/api/dates/8",
             "relations": "http://localhost:8080/api/relation/8"
@@ -129,6 +137,7 @@
                 "Axl Rose"
             ],
             "creationDate": 1973,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/9",
             "consertDates": "http://localhost:8080/api/dates/9",
             "relations": "http://localhost:8080/api/relation/9"
@@ -145,6 +154,7 @@
                 "Matt Cameron"
             ],
             "creationDate": 1990,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/10",
             "consertDates": "http://localhost:8080/api/dates/10",
             "relations": "http://localhost:8080/api/relation/10"
@@ -158,6 +168,7 @@
             ],
 
             "creationDate": 2001,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/11",
             "consertDates": "http://localhost:8080/api/dates/11",
             "relations": "http://localhost:8080/api/relation/11"
@@ -170,6 +181,7 @@
                 "Robyn Rihanna Fenty"
             ],
             "creationDate": 2003,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/12",
             "consertDates": "http://localhost:8080/api/dates/12",
             "relations": "http://localhost:8080/api/relation/12"
@@ -186,6 +198,7 @@
                 "Daryl Stuermer"
             ],
             "creationDate": 1967,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/13",
             "consertDates": "http://localhost:8080/api/dates/13",
             "relations": "http://localhost:8080/api/relation/13"
@@ -198,6 +211,7 @@
                 "Phil Collins"
             ],
             "creationDate": 1966,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/14",
             "consertDates": "http://localhost:8080/api/dates/14",
             "relations": "http://localhost:8080/api/relation/14"
@@ -213,6 +227,7 @@
                 "John Bonham"
             ],
             "creationDate": 1968,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/15",
             "consertDates": "http://localhost:8080/api/dates/15",
             "relations": "http://localhost:8080/api/relation/15"
@@ -228,6 +243,7 @@
                 "Billy Cox"                
             ],
             "creationDate": 1966,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/16",
             "consertDates": "http://localhost:8080/api/dates/16",
             "relations": "http://localhost:8080/api/relation/16"
@@ -242,6 +258,7 @@
                 "Maurice Gibb"
             ],
             "creationDate": 1958,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/17",
             "consertDates": "http://localhost:8080/api/dates/17",
             "relations": "http://localhost:8080/api/relation/17"
@@ -258,6 +275,7 @@
                 "Don Airey"
             ],
             "creationDate": 1968,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/18",
             "consertDates": "http://localhost:8080/api/dates/18",
             "relations": "http://localhost:8080/api/relation/18"
@@ -274,6 +292,7 @@
                 "Brad Whitford"
             ],
             "creationDate": 1970,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/19",
             "consertDates": "http://localhost:8080/api/dates/19",
             "relations": "http://localhost:8080/api/relation/19"
@@ -289,6 +308,7 @@
                 "Pick Withers"
             ],
             "creationDate": 1977,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/20",
             "consertDates": "http://localhost:8080/api/dates/20",
             "relations": "http://localhost:8080/api/relation/20"
@@ -305,6 +325,7 @@
                 "Samuel Reis de Oliveira"
             ],
             "creationDate": 1995,
+            "firstSingle": ,
             "locations": "http://localhost:8080/api/locations/21",
             "consertDates": "http://localhost:8080/api/dates/21",
             "relations": "http://localhost:8080/api/relation/21"
@@ -321,6 +342,7 @@
                 "Solon Bixler"
             ],
             "creationDate": 1998,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/22",
             "consertDates": "http://localhost:8080/api/dates/22",
             "relations": "http://localhost:8080/api/relation/22"
@@ -335,6 +357,7 @@
                 "Ben McKee"
             ],
             "creationDate": 2008,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/23",
             "consertDates": "http://localhost:8080/api/dates/23",
             "relations": "http://localhost:8080/api/relation/23"
@@ -347,6 +370,7 @@
                 " Jarad Higgins"
             ],
             "creationDate": 2015,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/24",
             "consertDates": "http://localhost:8080/api/dates/24",
             "relations": "http://localhost:8080/api/relation/24"
@@ -359,6 +383,7 @@
                 "Sir Robert Bryson Hall II"
             ],
             "creationDate": 2009,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/25",
             "consertDates": "http://localhost:8080/api/dates/25",
             "relations": "http://localhost:8080/api/relation/25"
@@ -371,6 +396,7 @@
                 "Jared Leto"
             ],
             "creationDate": 2013,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/26",
             "consertDates": "http://localhost:8080/api/dates/26",
             "relations": "http://localhost:8080/api/relation/26"
@@ -383,6 +409,7 @@
                 "Bobby McFerrin"
             ],
             "creationDate": 1977,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/27",
             "consertDates": "http://localhost:8080/api/dates/27",
             "relations": "http://localhost:8080/api/relation/27"
@@ -395,6 +422,7 @@
                 "Fadil El Ghoul"
             ],
             "creationDate": 2008,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/28",
             "consertDates": "http://localhost:8080/api/dates/28",
             "relations": "http://localhost:8080/api/relation/28"
@@ -407,6 +435,7 @@
                 "Post Malone"
             ],
             "creationDate": 2013,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/29",
             "consertDates": "http://localhost:8080/api/dates/29",
             "relations": "http://localhost:8080/api/relation/29"
@@ -419,6 +448,7 @@
                 "Travis Scott"
             ],
             "creationDate": 2008,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/30",
             "consertDates": "http://localhost:8080/api/dates/30",
             "relations": "http://localhost:8080/api/relation/30"
@@ -431,6 +461,7 @@
                 "Jermaine Lamarr Cole"
             ],
             "creationDate": 2007,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/31",
             "consertDates": "http://localhost:8080/api/dates/31",
             "relations": "http://localhost:8080/api/relation/31"
@@ -449,6 +480,7 @@
                 "Mitch Guindon"
             ],
             "creationDate": 1995,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/32",
             "consertDates": "http://localhost:8080/api/dates/32",
             "relations": "http://localhost:8080/api/relation/32"
@@ -462,6 +494,7 @@
                 "Havoc"
             ],
             "creationDate": 1991,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/33",
             "consertDates": "http://localhost:8080/api/dates/33",
             "relations": "http://localhost:8080/api/relation/33"
@@ -480,6 +513,7 @@
                 "Melissa Reese"
             ],
             "creationDate": 1985,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/34",
             "consertDates": "http://localhost:8080/api/dates/34",
             "relations": "http://localhost:8080/api/relation/34"
@@ -498,6 +532,7 @@
                 "Arabian Prince"
             ],
             "creationDate": 1998,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/35",
             "consertDates": "http://localhost:8080/api/dates/35",
             "relations": "http://localhost:8080/api/relation/35"
@@ -516,6 +551,7 @@
                 "Dick Evans"
             ],
             "creationDate": 1976,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/36",
             "consertDates": "http://localhost:8080/api/dates/36",
             "relations": "http://localhost:8080/api/relation/36"
@@ -533,6 +569,7 @@
                 "Glyn Jones"
             ],
             "creationDate": 2002,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/37",
             "consertDates": "http://localhost:8080/api/dates/37",
             "relations": "http://localhost:8080/api/relation/37"
@@ -548,6 +585,7 @@
                 "Joe Trohman"
             ],
             "creationDate": 2001,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/38",
             "consertDates": "http://localhost:8080/api/dates/38",
             "relations": "http://localhost:8080/api/relation/38"
@@ -562,6 +600,7 @@
                 "Remi Kabaka Jr."
             ],
             "creationDate": 1998,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/39",
             "consertDates": "http://localhost:8080/api/dates/39",
             "relations": "http://localhost:8080/api/relation/39"
@@ -577,6 +616,7 @@
                 "Bernie Leadon"
             ],
             "creationDate": 1971,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/40",
             "consertDates": "http://localhost:8080/api/dates/40",
             "relations": "http://localhost:8080/api/relation/40"
@@ -594,13 +634,14 @@
                 "Rob Bourdon"
             ],
             "creationDate": 1996,
+            "firstSingle": "25-08-2000",
             "locations": "http://locahost:8080/api/locations/41",
             "consertDates": "http://locahost:8080/api/dates/41",
             "relations": "http://localhost:8080/api/relation/41"
         },
         {
             "id": 42,
-            "image" : "http://localhost:8080/api/images/redrotchilipeppers.jpeg",
+            "image" : "http://localhost:8080/api/images/redhotchilipeppers.jpeg",
             "name" : "Red Hot Chili Peppers",
             "members" : [
                 "Anthony Kiedis",
@@ -609,6 +650,7 @@
                 "Josh Klinghoffer"
             ],
             "creationDate": 1983,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/42",
             "consertDates": "http://locahost:8080/api/dates/42",
             "relations": "http://localhost:8080/api/relation/42"
@@ -621,6 +663,7 @@
                 "Marshall Bruce Mathers"
             ],
             "creationDate": 1996,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/43",
             "consertDates": "http://locahost:8080/api/dates/43",
             "relations": "http://localhost:8080/api/relation/43"
@@ -635,6 +678,7 @@
                 "Tré Cool"
             ],
             "creationDate": 1986,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/44",
             "consertDates": "http://locahost:8080/api/dates/44",
             "relations": "http://localhost:8080/api/relation/44"
@@ -650,6 +694,7 @@
                 "Robert Trujillo"
             ],
             "creationDate": 1981,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/45",
             "consertDates": "http://locahost:8080/api/dates/45",
             "relations": "http://localhost:8080/api/relation/45"
@@ -665,6 +710,7 @@
                 "Will Champion"
             ],
             "creationDate": 1996,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/46",
             "consertDates": "http://locahost:8080/api/dates/46",
             "relations": "http://localhost:8080/api/relation/46"
@@ -683,6 +729,7 @@
                 "Sam Farrar"
             ],
             "creationDate": 1994,
+            "firstSingle": ,
             "locations": "http://locahost:8080/api/locations/47",
             "consertDates": "http://locahost:8080/api/dates/47",
             "relations": "http://localhost:8080/api/relation/47"
@@ -696,6 +743,7 @@
                     "Josh Dun"
                 ],
                 "creationDate": 2009,
+                "firstSingle": ,
                 "locations": "http://locahost:8080/api/locations/48",
             "consertDates": "http://locahost:8080/api/dates/48",
             "relations": "http://localhost:8080/api/relation/48"
@@ -711,6 +759,7 @@
                     "Ron Wood"
                 ],
                 "creationDate": 1962,
+                "firstSingle": ,
                 "locations": "http://locahost:8080/api/locations/49",
             "consertDates": "http://locahost:8080/api/dates/49",
             "relations": "http://localhost:8080/api/relation/49"
@@ -725,6 +774,7 @@
                     "Dominic Howard "
                ],
                 "creationDate": 1994,
+                "firstSingle": ,
                 "locations": "http://locahost:8080/api/locations/50",
             "consertDates": "http://locahost:8080/api/dates/50",
             "relations": "http://localhost:8080/api/relation/50"
@@ -742,6 +792,7 @@
                     "Rami Jaffee"
                ],
                 "creationDate": 1994,
+                "firstSingle": ,
                 "locations": "http://locahost:8080/api/locations/51",
             "consertDates": "http://locahost:8080/api/dates/51",
             "relations": "http://localhost:8080/api/relation/51"
@@ -757,6 +808,7 @@
                     "Tony Ann"
                ],
                 "creationDate": 2008,
+                "firstSingle": ,
                 "locations": "http://locahost:8080/api/locations/52",
             "consertDates": "http://locahost:8080/api/dates/52",
             "relations": "http://localhost:8080/api/relation/52"
