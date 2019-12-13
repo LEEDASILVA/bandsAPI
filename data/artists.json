@@ -443,9 +443,9 @@
         {
             "id": 30,
             "image" : "http://localhost:8080/api/images/travisScott.jpeg",
-            "name" : "Jacques Bermon Webster II",
+            "name" : "Travis Scott",
             "members" : [
-                "Travis Scott"
+                "Jacques Bermon Webster II"
             ],
             "creationDate": 2008,
             "firstAlbum": "18-08-2014",
@@ -494,7 +494,7 @@
                 "Havoc"
             ],
             "creationDate": 1991,
-            "firstAlbum": "19-11-1996",
+            "firstAlbum": "12-13-1996",
             "locations": "http://locahost:8080/api/locations/33",
             "consertDates": "http://localhost:8080/api/dates/33",
             "relations": "http://localhost:8080/api/relation/33"
