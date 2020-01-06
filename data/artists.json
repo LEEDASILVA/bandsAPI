@@ -14,7 +14,7 @@
                 "Doug Fogie"
             ],
             "creationDate": 1970,
-            "firstAlbum": "13-07-1973",
+            "firstAlbum": "12-14-1973",
             "locations": "http://localhost:8080/api/locations/1",
             "consertDates": "http://localhost:8080/api/dates/1",
             "relations": "http://localhost:8080/api/relation/1"
@@ -393,7 +393,7 @@
             "image" : "http://localhost:8080/api/images/alecBeenjamin.jpeg",
             "name" : "Alec Benjamin",
             "members" : [
-                "Jared Leto"
+                "Alec Benjamin"
             ],
             "creationDate": 2013,
             "firstAlbum": "15-11-2018",
@@ -494,7 +494,7 @@
                 "Havoc"
             ],
             "creationDate": 1991,
-            "firstAlbum": "12-13-1996",
+            "firstAlbum": "23-04-1993",
             "locations": "http://locahost:8080/api/locations/33",
             "consertDates": "http://localhost:8080/api/dates/33",
             "relations": "http://localhost:8080/api/relation/33"
