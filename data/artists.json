@@ -90,9 +90,9 @@
         {
             "id": 6,
             "image" : "http://localhost:8080/api/images/macmiller.jpeg",
-            "name" : "Malcolm James McCormick",
+            "name" : "Mac Miller",
             "members" : [
-                "Mac Miller"
+                "Malcolm James McCormick"
             ],
             "creationDate": 2007,
             "firstAlbum": "29-06-2013",
@@ -429,7 +429,7 @@
         },
         {
             "id": 29,
-            "image" : "Post http://localhost:8080/api/images/postmalone.jpeg",
+            "image" : "http://localhost:8080/api/images/postmalone.jpeg",
             "name" : "Post Malone",
             "members" : [
                 "Post Malone"
