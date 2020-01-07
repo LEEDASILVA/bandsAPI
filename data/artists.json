@@ -16,7 +16,7 @@
             "creationDate": 1970,
             "firstAlbum": "12-14-1973",
             "locations": "http://localhost:8080/api/locations/1",
-            "consertDates": "http://localhost:8080/api/dates/1",
+            "concertDates": "http://localhost:8080/api/dates/1",
             "relations": "http://localhost:8080/api/relation/1"
         },
         {
@@ -36,7 +36,7 @@
             "creationDate": 1997,
             "firstAlbum": "05-06-2002",
             "locations": "http://localhost:8080/api/locations/2",
-            "consertDates": "http://localhost:8080/api/dates/2",
+            "concertDates": "http://localhost:8080/api/dates/2",
             "relations": "http://localhost:8080/api/relation/2"
         },
         {
@@ -54,7 +54,7 @@
             "creationDate": 1965,
             "firstAlbum": "05-08-1967",
             "locations": "http://localhost:8080/api/locations/3",
-            "consertDates": "http://localhost:8080/api/dates/3",
+            "concertDates": "http://localhost:8080/api/dates/3",
             "relations": "http://localhost:8080/api/relation/3"
         },
         {
@@ -71,7 +71,7 @@
             "creationDate": 1965,
             "firstAlbum": "21-04-1979",
             "locations": "http://localhost:8080/api/locations/4",
-            "consertDates": "http://localhost:8080/api/dates/4",
+            "concertDates": "http://localhost:8080/api/dates/4",
             "relations": "http://localhost:8080/api/relation/4"
         },
         {
@@ -84,7 +84,7 @@
             "creationDate": 2013,
             "firstAlbum": "07-09-2017",
             "locations": "http://localhost:8080/api/locations/5",
-            "consertDates": "http://localhost:8080/api/dates/5",
+            "concertDates": "http://localhost:8080/api/dates/5",
             "relations": "http://localhost:8080/api/relation/5"
         },
         {
@@ -97,7 +97,7 @@
             "creationDate": 2007,
             "firstAlbum": "29-06-2013",
             "locations": "http://localhost:8080/api/locations/6",
-            "consertDates": "http://localhost:8080/api/dates/6",
+            "concertDates": "http://localhost:8080/api/dates/6",
             "relations": "http://localhost:8080/api/relation/6"
         },
         {
@@ -110,7 +110,7 @@
             "creationDate": 2007,
             "firstAlbum": "13-05-2011",
             "locations": "http://localhost:8080/api/locations/7",
-            "consertDates": "http://localhost:8080/api/dates/7",
+            "concertDates": "http://localhost:8080/api/dates/7",
             "relations": "http://localhost:8080/api/relation/7"
         },
         {
@@ -123,7 +123,7 @@
             "creationDate": 2004,
             "firstAlbum": "03-11-2012",
             "locations": "http://localhost:8080/api/locations/8",
-            "consertDates": "http://localhost:8080/api/dates/8",
+            "concertDates": "http://localhost:8080/api/dates/8",
             "relations": "http://localhost:8080/api/relation/8"
         },
         {
@@ -139,7 +139,7 @@
             "creationDate": 1973,
             "firstAlbum": "11-05-1977",
             "locations": "http://localhost:8080/api/locations/9",
-            "consertDates": "http://localhost:8080/api/dates/9",
+            "concertDates": "http://localhost:8080/api/dates/9",
             "relations": "http://localhost:8080/api/relation/9"
         },
         {
@@ -156,7 +156,7 @@
             "creationDate": 1990,
             "firstAlbum": "03-07-1992",
             "locations": "http://localhost:8080/api/locations/10",
-            "consertDates": "http://localhost:8080/api/dates/10",
+            "concertDates": "http://localhost:8080/api/dates/10",
             "relations": "http://localhost:8080/api/relation/10"
         },
         {
@@ -170,7 +170,7 @@
             "creationDate": 2001,
             "firstAlbum": "04-10-2008",
             "locations": "http://localhost:8080/api/locations/11",
-            "consertDates": "http://localhost:8080/api/dates/11",
+            "concertDates": "http://localhost:8080/api/dates/11",
             "relations": "http://localhost:8080/api/relation/11"
         },
         {
@@ -183,7 +183,7 @@
             "creationDate": 2003,
             "firstAlbum": "10-09-2005",
             "locations": "http://localhost:8080/api/locations/12",
-            "consertDates": "http://localhost:8080/api/dates/12",
+            "concertDates": "http://localhost:8080/api/dates/12",
             "relations": "http://localhost:8080/api/relation/12"
         },
         {
@@ -200,7 +200,7 @@
             "creationDate": 1967,
             "firstAlbum": "14-10-1972",
             "locations": "http://localhost:8080/api/locations/13",
-            "consertDates": "http://localhost:8080/api/dates/13",
+            "concertDates": "http://localhost:8080/api/dates/13",
             "relations": "http://localhost:8080/api/relation/13"
         },
         {
@@ -213,7 +213,7 @@
             "creationDate": 1966,
             "firstAlbum": "21-02-1981",
             "locations": "http://localhost:8080/api/locations/14",
-            "consertDates": "http://localhost:8080/api/dates/14",
+            "concertDates": "http://localhost:8080/api/dates/14",
             "relations": "http://localhost:8080/api/relation/14"
         },
         {
@@ -229,7 +229,7 @@
             "creationDate": 1968,
             "firstAlbum": "12-04-1969",
             "locations": "http://localhost:8080/api/locations/15",
-            "consertDates": "http://localhost:8080/api/dates/15",
+            "concertDates": "http://localhost:8080/api/dates/15",
             "relations": "http://localhost:8080/api/relation/15"
         },
         {
@@ -245,7 +245,7 @@
             "creationDate": 1966,
             "firstAlbum": "27-05-1967",
             "locations": "http://localhost:8080/api/locations/16",
-            "consertDates": "http://localhost:8080/api/dates/16",
+            "concertDates": "http://localhost:8080/api/dates/16",
             "relations": "http://localhost:8080/api/relation/16"
         },
         {
@@ -260,7 +260,7 @@
             "creationDate": 1958,
             "firstAlbum": "12-08-1967",
             "locations": "http://localhost:8080/api/locations/17",
-            "consertDates": "http://localhost:8080/api/dates/17",
+            "concertDates": "http://localhost:8080/api/dates/17",
             "relations": "http://localhost:8080/api/relation/17"
         },
         {
@@ -277,7 +277,7 @@
             "creationDate": 1968,
             "firstAlbum": "24-01-1970",
             "locations": "http://localhost:8080/api/locations/18",
-            "consertDates": "http://localhost:8080/api/dates/18",
+            "concertDates": "http://localhost:8080/api/dates/18",
             "relations": "http://localhost:8080/api/relation/18"
         },
         {
@@ -294,7 +294,7 @@
             "creationDate": 1970,
             "firstAlbum": "05-09-1987",
             "locations": "http://localhost:8080/api/locations/19",
-            "consertDates": "http://localhost:8080/api/dates/19",
+            "concertDates": "http://localhost:8080/api/dates/19",
             "relations": "http://localhost:8080/api/relation/19"
         },
         {
@@ -310,7 +310,7 @@
             "creationDate": 1977,
             "firstAlbum": "22-07-1978",
             "locations": "http://localhost:8080/api/locations/20",
-            "consertDates": "http://localhost:8080/api/dates/20",
+            "concertDates": "http://localhost:8080/api/dates/20",
             "relations": "http://localhost:8080/api/relation/20"
         },
         {
@@ -327,7 +327,7 @@
             "creationDate": 1995,
             "firstAlbum": "23-06-1995",
             "locations": "http://localhost:8080/api/locations/21",
-            "consertDates": "http://localhost:8080/api/dates/21",
+            "concertDates": "http://localhost:8080/api/dates/21",
             "relations": "http://localhost:8080/api/relation/21"
         },
         {
@@ -344,7 +344,7 @@
             "creationDate": 1998,
             "firstAlbum": "27-06-2002",
             "locations": "http://locahost:8080/api/locations/22",
-            "consertDates": "http://localhost:8080/api/dates/22",
+            "concertDates": "http://localhost:8080/api/dates/22",
             "relations": "http://localhost:8080/api/relation/22"
         },
         {
@@ -359,7 +359,7 @@
             "creationDate": 2008,
             "firstAlbum": "04-09-2012",
             "locations": "http://locahost:8080/api/locations/23",
-            "consertDates": "http://localhost:8080/api/dates/23",
+            "concertDates": "http://localhost:8080/api/dates/23",
             "relations": "http://localhost:8080/api/relation/23"
         },
         {
@@ -372,7 +372,7 @@
             "creationDate": 2015,
             "firstAlbum": "23-05-2018",
             "locations": "http://locahost:8080/api/locations/24",
-            "consertDates": "http://localhost:8080/api/dates/24",
+            "concertDates": "http://localhost:8080/api/dates/24",
             "relations": "http://localhost:8080/api/relation/24"
         },
         {
@@ -385,7 +385,7 @@
             "creationDate": 2009,
             "firstAlbum": "22-09-2015",
             "locations": "http://locahost:8080/api/locations/25",
-            "consertDates": "http://localhost:8080/api/dates/25",
+            "concertDates": "http://localhost:8080/api/dates/25",
             "relations": "http://localhost:8080/api/relation/25"
         },
         {
@@ -398,7 +398,7 @@
             "creationDate": 2013,
             "firstAlbum": "15-11-2018",
             "locations": "http://locahost:8080/api/locations/26",
-            "consertDates": "http://localhost:8080/api/dates/26",
+            "concertDates": "http://localhost:8080/api/dates/26",
             "relations": "http://localhost:8080/api/relation/26"
         },
         {
@@ -411,7 +411,7 @@
             "creationDate": 1977,
             "firstAlbum": "01-09-1982",
             "locations": "http://locahost:8080/api/locations/27",
-            "consertDates": "http://localhost:8080/api/dates/27",
+            "concertDates": "http://localhost:8080/api/dates/27",
             "relations": "http://localhost:8080/api/relation/27"
         },
         {
@@ -424,7 +424,7 @@
             "creationDate": 2008,
             "firstAlbum": "09-12-2014",
             "locations": "http://locahost:8080/api/locations/28",
-            "consertDates": "http://localhost:8080/api/dates/28",
+            "concertDates": "http://localhost:8080/api/dates/28",
             "relations": "http://localhost:8080/api/relation/28"
         },
         {
@@ -437,7 +437,7 @@
             "creationDate": 2013,
             "firstAlbum": " 13-05-2016",
             "locations": "http://locahost:8080/api/locations/29",
-            "consertDates": "http://localhost:8080/api/dates/29",
+            "concertDates": "http://localhost:8080/api/dates/29",
             "relations": "http://localhost:8080/api/relation/29"
         },
         {
@@ -450,7 +450,7 @@
             "creationDate": 2008,
             "firstAlbum": "18-08-2014",
             "locations": "http://locahost:8080/api/locations/30",
-            "consertDates": "http://localhost:8080/api/dates/30",
+            "concertDates": "http://localhost:8080/api/dates/30",
             "relations": "http://localhost:8080/api/relation/30"
         },
         {
@@ -463,7 +463,7 @@
             "creationDate": 2007,
             "firstAlbum": "04-05-2007",
             "locations": "http://locahost:8080/api/locations/31",
-            "consertDates": "http://localhost:8080/api/dates/31",
+            "concertDates": "http://localhost:8080/api/dates/31",
             "relations": "http://localhost:8080/api/relation/31"
         },
         {
@@ -482,7 +482,7 @@
             "creationDate": 1995,
             "firstAlbum": "04-09-1996",
             "locations": "http://locahost:8080/api/locations/32",
-            "consertDates": "http://localhost:8080/api/dates/32",
+            "concertDates": "http://localhost:8080/api/dates/32",
             "relations": "http://localhost:8080/api/relation/32"
         },
         {
@@ -496,7 +496,7 @@
             "creationDate": 1991,
             "firstAlbum": "23-04-1993",
             "locations": "http://locahost:8080/api/locations/33",
-            "consertDates": "http://localhost:8080/api/dates/33",
+            "concertDates": "http://localhost:8080/api/dates/33",
             "relations": "http://localhost:8080/api/relation/33"
         },
         {
@@ -515,7 +515,7 @@
             "creationDate": 1985,
             "firstAlbum": "21-07-1987",
             "locations": "http://locahost:8080/api/locations/34",
-            "consertDates": "http://localhost:8080/api/dates/34",
+            "concertDates": "http://localhost:8080/api/dates/34",
             "relations": "http://localhost:8080/api/relation/34"
         },
         {
@@ -534,7 +534,7 @@
             "creationDate": 1998,
             "firstAlbum": "03-11-1998",
             "locations": "http://locahost:8080/api/locations/35",
-            "consertDates": "http://localhost:8080/api/dates/35",
+            "concertDates": "http://localhost:8080/api/dates/35",
             "relations": "http://localhost:8080/api/relation/35"
         },
         {
@@ -553,7 +553,7 @@
             "creationDate": 1976,
             "firstAlbum": "06-12-1980",
             "locations": "http://locahost:8080/api/locations/36",
-            "consertDates": "http://localhost:8080/api/dates/36",
+            "concertDates": "http://localhost:8080/api/dates/36",
             "relations": "http://localhost:8080/api/relation/36"
         },
         {
@@ -571,7 +571,7 @@
             "creationDate": 2002,
             "firstAlbum": "23-04-2007",
             "locations": "http://locahost:8080/api/locations/37",
-            "consertDates": "http://localhost:8080/api/dates/37",
+            "concertDates": "http://localhost:8080/api/dates/37",
             "relations": "http://localhost:8080/api/relation/37"
         },
         {
@@ -587,7 +587,7 @@
             "creationDate": 2001,
             "firstAlbum": "25-03-2003",
             "locations": "http://locahost:8080/api/locations/38",
-            "consertDates": "http://localhost:8080/api/dates/38",
+            "concertDates": "http://localhost:8080/api/dates/38",
             "relations": "http://localhost:8080/api/relation/38"
         },
         {
@@ -602,7 +602,7 @@
             "creationDate": 1998,
             "firstAlbum": "26-03-2001",
             "locations": "http://locahost:8080/api/locations/39",
-            "consertDates": "http://localhost:8080/api/dates/39",
+            "concertDates": "http://localhost:8080/api/dates/39",
             "relations": "http://localhost:8080/api/relation/39"
         },
         {
@@ -618,7 +618,7 @@
             "creationDate": 1971,
             "firstAlbum": "01-06-1972",
             "locations": "http://locahost:8080/api/locations/40",
-            "consertDates": "http://localhost:8080/api/dates/40",
+            "concertDates": "http://localhost:8080/api/dates/40",
             "relations": "http://localhost:8080/api/relation/40"
         },
         {
@@ -636,7 +636,7 @@
             "creationDate": 1996,
             "firstAlbum": "27-01-2001",
             "locations": "http://locahost:8080/api/locations/41",
-            "consertDates": "http://locahost:8080/api/dates/41",
+            "concertDates": "http://locahost:8080/api/dates/41",
             "relations": "http://localhost:8080/api/relation/41"
         },
         {
@@ -652,7 +652,7 @@
             "creationDate": 1983,
             "firstAlbum": "10-02-1990",
             "locations": "http://locahost:8080/api/locations/42",
-            "consertDates": "http://locahost:8080/api/dates/42",
+            "concertDates": "http://locahost:8080/api/dates/42",
             "relations": "http://localhost:8080/api/relation/42"
         },
         {
@@ -665,7 +665,7 @@
             "creationDate": 1996,
             "firstAlbum": "10-04-1999",
             "locations": "http://locahost:8080/api/locations/43",
-            "consertDates": "http://locahost:8080/api/dates/43",
+            "concertDates": "http://locahost:8080/api/dates/43",
             "relations": "http://localhost:8080/api/relation/43"
         },
         {
@@ -680,7 +680,7 @@
             "creationDate": 1986,
             "firstAlbum":"18-06-1994" ,
             "locations": "http://locahost:8080/api/locations/44",
-            "consertDates": "http://locahost:8080/api/dates/44",
+            "concertDates": "http://locahost:8080/api/dates/44",
             "relations": "http://localhost:8080/api/relation/44"
         },
         {
@@ -696,7 +696,7 @@
             "creationDate": 1981,
             "firstAlbum": "22-08-1987",
             "locations": "http://locahost:8080/api/locations/45",
-            "consertDates": "http://locahost:8080/api/dates/45",
+            "concertDates": "http://locahost:8080/api/dates/45",
             "relations": "http://localhost:8080/api/relation/45"
         },
         {
@@ -712,7 +712,7 @@
             "creationDate": 1996,
             "firstAlbum": "22-07-2000",
             "locations": "http://locahost:8080/api/locations/46",
-            "consertDates": "http://locahost:8080/api/dates/46",
+            "concertDates": "http://locahost:8080/api/dates/46",
             "relations": "http://localhost:8080/api/relation/46"
         },
         {
@@ -731,7 +731,7 @@
             "creationDate": 1994,
             "firstAlbum": "31-01-2004",
             "locations": "http://locahost:8080/api/locations/47",
-            "consertDates": "http://locahost:8080/api/dates/47",
+            "concertDates": "http://locahost:8080/api/dates/47",
             "relations": "http://localhost:8080/api/relation/47"
         },
         {
@@ -745,7 +745,7 @@
                 "creationDate": 2009,
                 "firstAlbum": "14-09-2013",
                 "locations": "http://locahost:8080/api/locations/48",
-            "consertDates": "http://locahost:8080/api/dates/48",
+            "concertDates": "http://locahost:8080/api/dates/48",
             "relations": "http://localhost:8080/api/relation/48"
             },
         {
@@ -761,7 +761,7 @@
                 "creationDate": 1962,
                 "firstAlbum": "31-07-1963",
                 "locations": "http://locahost:8080/api/locations/49",
-            "consertDates": "http://locahost:8080/api/dates/49",
+            "concertDates": "http://locahost:8080/api/dates/49",
             "relations": "http://localhost:8080/api/relation/49"
             },
         {
@@ -776,7 +776,7 @@
                 "creationDate": 1994,
                 "firstAlbum": "26-06-1999",
                 "locations": "http://locahost:8080/api/locations/50",
-            "consertDates": "http://locahost:8080/api/dates/50",
+            "concertDates": "http://locahost:8080/api/dates/50",
             "relations": "http://localhost:8080/api/relation/50"
             },
         {
@@ -794,7 +794,7 @@
                 "creationDate": 1994,
                 "firstAlbum": "01-07-1995",
                 "locations": "http://locahost:8080/api/locations/51",
-            "consertDates": "http://locahost:8080/api/dates/51",
+            "concertDates": "http://locahost:8080/api/dates/51",
             "relations": "http://localhost:8080/api/relation/51"
             },
         {
@@ -810,7 +810,7 @@
                 "creationDate": 2008,
                 "firstAlbum": "15-03-2014",
                 "locations": "http://locahost:8080/api/locations/52",
-            "consertDates": "http://locahost:8080/api/dates/52",
+            "concertDates": "http://locahost:8080/api/dates/52",
             "relations": "http://localhost:8080/api/relation/52"
             }
     ]
