@@ -3,7 +3,6 @@ package main
 import (
 	"bytes"
 	"encoding/json"
-	"flag"
 	"fmt"
 	"image"
 	"image/jpeg"
@@ -283,12 +282,6 @@ func locationNdates(d Dates) [][]string {
 }
 
 func main() {
-	r := mux.NewRouter()
-	directory := flag.String("d", ".", "the directory of static file to host")
-	flag.Parse()
-
-	http.Handle("/", http.FileServer(http.Dir(*directory)))
-
 	getJSON("data/artists.json")
 	getJSON("data/locations.json")
 	getJSON("data/dates.json")
