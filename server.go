@@ -168,7 +168,7 @@ func getImages(w http.ResponseWriter, r *http.Request) {
 	buffer := new(bytes.Buffer)
 	params := mux.Vars(r)
 
-	image := "../images/" + params["image"]
+	image := "images/" + params["image"]
 	if err := jpeg.Encode(buffer, loadImage(image), nil); err != nil {
 		log.Println("unable to encode image.")
 	}
