@@ -205,7 +205,7 @@ func getJSON(jsonfile string) {
 	switch types {
 	case "artists":
 		var b Bands
-		fmt.Println(byteValue)
+
 		err := json.Unmarshal(byteValue, &b)
 		handleError(err)
 
