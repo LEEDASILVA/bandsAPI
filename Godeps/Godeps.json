@@ -1,7 +1,9 @@
 {
 	"ImportPath": "github.com/lee/groupietrackers",
 	"GoVersion": "go1.10",
-	"GodepVersion": "v80",
+	"Packages": [
+        "./…"
+    ],
 	"Deps": [
 		{
 			"ImportPath": "github.com/gorilla/mux",
