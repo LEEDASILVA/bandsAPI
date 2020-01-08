@@ -282,6 +282,8 @@ func locationNdates(d Dates) [][]string {
 }
 
 func main() {
+	r := mux.NewRouter()
+
 	getJSON("data/artists.json")
 	getJSON("data/locations.json")
 	getJSON("data/dates.json")
