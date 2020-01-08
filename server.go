@@ -103,10 +103,10 @@ func getLink(w http.ResponseWriter, r *http.Request) {
 		R string `json:"relation"`
 	}
 	res := a{}
-	str := `{ "artists": "http://localhost:8080/api/artists",
-	"locations": "http://localhost:8080/api/locations",
-	"dates": "http://localhost:8080/api/dates",
-	"relation": "http://localhost:8080/api/relation" }`
+	str := `{ "artists": "https://groupietrackers.herokuapp.com/api/artists",
+	"locations": "https://groupietrackers.herokuapp.com/api/locations",
+	"dates": "https://groupietrackers.herokuapp.com/api/dates",
+	"relation": "https://groupietrackers.herokuapp.com/api/relation" }`
 	json.Unmarshal([]byte(str), &res)
 	json.NewEncoder(w).Encode(res)
 }
