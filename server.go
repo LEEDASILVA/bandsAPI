@@ -37,6 +37,7 @@ type Locs struct {
 type Locations struct {
 	ID    int      `json:"id"`
 	Locat []string `json:"locations"`
+	Data  string   `json:"dates"`
 }
 
 type Dats struct {
