@@ -283,11 +283,11 @@ func locationNdates(d Dates) [][]string {
 
 func main() {
 	r := mux.NewRouter()
-	r.Handle("/", http.FileServer(http.Dir(".")))
+	//r.Handle("/", http.FileServer(http.Dir(".")))
 
-	getJSON("../data/artists.json")
-	getJSON("../data/locations.json")
-	getJSON("../data/dates.json")
+	getJSON("data/artists.json")
+	getJSON("data/locations.json")
+	getJSON("data/dates.json")
 
 	if datslocs.DatsLocs == nil {
 		datslocs.DatsLocs = make(map[string][]string)
