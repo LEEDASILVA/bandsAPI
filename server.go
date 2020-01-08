@@ -307,12 +307,11 @@ func main() {
 	r.HandleFunc("/api/images/{image}", getImages).Methods("GET")
 
 	port := GetPort()
-	err := http.ListenAndServe(port, nil)
+	err := http.ListenAndServe(port, r)
 	if err != nil {
 		log.Fatal("ListenAndServe: ", err)
 	}
 	fmt.Printf("Server running on port%v", port)
-	log.Fatal(http.ListenAndServe(":8080", r))
 }
 
 // Get the Port from the environment so we can run on Heroku
