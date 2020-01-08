@@ -76,6 +76,7 @@ func handleError(err error) {
 // all Get handlers
 func getArtists(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
+	fmt.Println(artists)
 	json.NewEncoder(w).Encode(artists)
 }
 
