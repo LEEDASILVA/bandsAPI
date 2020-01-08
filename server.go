@@ -283,7 +283,7 @@ func locationNdates(d Dates) [][]string {
 
 func main() {
 	r := mux.NewRouter()
-	http.Handle("/", http.FileServer(http.Dir(".")))
+	r.Handle("/", http.FileServer(http.Dir(".")))
 
 	getJSON("data/artists.json")
 	getJSON("data/locations.json")
