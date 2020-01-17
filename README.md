@@ -2,7 +2,7 @@
 
 ## Introduction
 
-### **warning this will run locally!!! for now**
+### https://groupietrackers.herokuapp.com/api
 
 ## How to run
 
