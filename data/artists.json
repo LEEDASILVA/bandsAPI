@@ -350,7 +350,7 @@
         {
             "id": 23,
             "image" : "https://groupietrackers.herokuapp.com/api/images/imagineDragons.jpeg",
-            "name" : "Imagine Dragon",
+            "name" : "Imagine Dragons",
             "members" : [
                 "Dan Reynolds",
                 "Daniel Wayne Sermon",
@@ -718,7 +718,7 @@
         {
         "id": 47,
             "image" : "https://groupietrackers.herokuapp.com/api/images/maroon5.jpeg",
-            "name" : "Maroon5",
+            "name" : "Maroon 5",
             "members" : [
                 "Adam Levine",
                 "Jesse Carmichael",
@@ -737,7 +737,7 @@
         {
             "id": 48,
                 "image" : "https://groupietrackers.herokuapp.com/api/images/twentyonepilots.jpeg",
-                "name" : "Twenty One Pilots ",
+                "name" : "Twenty One Pilots",
                 "members" : [
                     "Tyler Joseph",
                     "Josh Dun"
