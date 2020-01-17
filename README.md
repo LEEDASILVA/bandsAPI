@@ -2,7 +2,7 @@
 
 ## Introduction
 
-### https://groupietrackers.herokuapp.com/api
+### [RESTApi](https://groupietrackers.herokuapp.com/api)
 
 ## How to run
 
@@ -15,14 +15,14 @@ usr/bandsAPI/go$
 
 ## REST
 
-- URL: `http://localhost:8080/api`
+- URL: `https://groupietrackers.herokuapp.com/api`
 
 The main resources are :
 
-- `http://localhost:8080/api/artists` will show all the artists
-- `http://localhost:8080/api/locations` will show all locations
-- `http://localhost:8080/api/dates` will show all dates
-- `http://localhost:8080/api/relation` will show relations between the locations and the dates
+- `https://groupietrackers.herokuapp.com/api/artists` will show all the artists
+- `https://groupietrackers.herokuapp.com/api/locations` will show all locations
+- `https://groupietrackers.herokuapp.com/api/dates` will show all dates
+- `https://groupietrackers.herokuapp.com/api/relation` will show relations between the locations and the dates
 
 ### Format example
 
@@ -33,7 +33,7 @@ The main resources are :
     "index":[
         {
             "id": 1,
-            "image" : "http://localhost:8080/api/images/queen.jpeg",
+            "image" : "https://groupietrackers.herokuapp.com/api/images/queen.jpeg",
             "name" : "Queen",
             "members" : [
                 "Freddie Mercury",
@@ -45,13 +45,13 @@ The main resources are :
                 "Doug Fogie"
             ],
             "creationDate": 1970,
-            "locations": "http://localhost:8080/api/locations/1",
-            "consertDates": "http://localhost:8080/api/dates/1",
-            "relations": "http://localhost:8080/api/relation/1"
+            "locations": "https://groupietrackers.herokuapp.com/api/locations/1",
+            "consertDates": "https://groupietrackers.herokuapp.com/api/dates/1",
+            "relations": "https://groupietrackers.herokuapp.com/api/relation/1"
         },
         {
             "id": 2,
-            "image" : "http://localhost:8080/api/images/soja.jpeg",
+            "image" : "https://groupietrackers.herokuapp.com/api/soja.jpeg",
             "name" : "SOJA",
             "members" : [
                 "Jacob Hemphill",
@@ -64,9 +64,9 @@ The main resources are :
                 "Trevor Young"
             ],
             "creationDate": 1997,
-            "locations": "http://localhost:8080/api/locations/2",
-            "consertDates": "http://localhost:8080/api/dates/2",
-            "relations": "http://localhost:8080/api/relation/2"
+            "locations": "https://groupietrackers.herokuapp.com/api/locations/2",
+            "consertDates": "https://groupietrackers.herokuapp.com/api/dates/2",
+            "relations": "https://groupietrackers.herokuapp.com/api/relation/2"
         }
     ]
 }
@@ -89,7 +89,7 @@ The main resources are :
                 "penrose-new_zealand",
                 "dunedin-new_zealand"
             ],
-            "dates":"http://localhost:8080/api/dates/1"
+            "dates":"https://groupietrackers.herokuapp.com/api/dates/1"
         },
         {
             "id": 2,
@@ -98,7 +98,7 @@ The main resources are :
                 "papeete-french_polynesia",
                 "noumea-new_caledonia"
             ],
-            "dates":"http://localhost:8080/api/dates/2"
+            "dates":"https://groupietrackers.herokuapp.com/api/dates/2"
         }
     ]
 }
@@ -140,14 +140,14 @@ The main resources are :
 
 ## Possible queries
 
-- `http://localhost:8080/api/artists/{id}`
+- `https://groupietrackers.herokuapp.com/api/artists/{id}`
 
-`http://localhost:8080/api/artists/1`
+`https://groupietrackers.herokuapp.com/api/artists/1`
 
 ```json
 {
   "id": 1,
-  "image": "http://localhost:8080/api/images/queen.jpeg",
+  "image": "https://groupietrackers.herokuapp.com/api/images/queen.jpeg",
   "name": "Queen",
   "members": [
     "Freddie Mercury",
@@ -159,15 +159,15 @@ The main resources are :
     "Doug Fogie"
   ],
   "creationDate": 1970,
-  "locations": "http://localhost:8080/api/locations/1",
-  "consertDates": "http://localhost:8080/api/dates/1",
-  "relations": "http://localhost:8080/api/relation/1"
+  "locations": "https://groupietrackers.herokuapp.com/api/locations/1",
+  "consertDates": "https://groupietrackers.herokuapp.com/api/dates/1",
+  "relations": "https://groupietrackers.herokuapp.com/api/relation/1"
 }
 ```
 
-- `http://localhost:8080/api/locations/{id}`
+- `https://groupietrackers.herokuapp.com/api/locations/{id}`
 
-`http://localhost:8080/api/locations/1`
+`https://groupietrackers.herokuapp.com/api/locations/1`
 
 ```json
 {
@@ -185,9 +185,9 @@ The main resources are :
 }
 ```
 
-- `http://localhost:8080/api/dates/{id}`
+- `https://groupietrackers.herokuapp.com/api/dates/{id}`
 
-`http://localhost:8080/api/dates/1`
+`https://groupietrackers.herokuapp.com/api/dates/1`
 
 ```json
 {
@@ -205,9 +205,9 @@ The main resources are :
 }
 ```
 
-- `http://localhost:8080/api/relation/{id}`
+- `https://groupietrackers.herokuapp.com/api/relation/{id}`
 
-`http://localhost:8080/api/relation/1`
+`https://groupietrackers.herokuapp.com/api/relation/1`
 
 ```json
 {
@@ -241,4 +241,4 @@ The main resources are :
 }
 ```
 
-- `http://localhost:8080/api/images/{name}`
+- `https://groupietrackers.herokuapp.com/api/images/{name}`
