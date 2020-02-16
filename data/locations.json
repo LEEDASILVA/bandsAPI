@@ -90,7 +90,7 @@
         {
             "id": 9,
             "locations":[
-                "new york-usa",
+                "new_york-usa",
                 "dusseldorf-germany",
                 "aarhus-denmark",
                 "manchester-uk"
@@ -123,7 +123,7 @@
             "id": 12,
             "locations":[
                 "abu_dhabi-united_arab_emirates",
-                "new york-usa",
+                "new_york-usa",
                 "pensilvania-usa"
             ],
             "dates":"https://groupietrackers.herokuapp.com/api/dates/12"
@@ -359,13 +359,13 @@
             "id": 30,
             "locations": [
                 "santiago-chile",
-                "sao_paulo-usa",
+                "sao_paulo-brasil",
                 "los_angeles-usa",
                 "houston-usa",
                 "atlanta-usa",
                 "new_orleans-usa",
                 "philadelphia-usa",
-                "london-usa",
+                "london-uk",
                 "frauenfeld-switzerland",
                 "turku-finland"
             ],
@@ -513,7 +513,7 @@
             "id": 42,
             "locations": [
                 "california-usa",
-                "rio_de_janeiro",
+                "rio_de_janeiro-brazil",
                 "los_angeles-usa",
                 "alabama-usa",
                 "massachusetts-usa",

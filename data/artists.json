@@ -14,7 +14,7 @@
                 "Doug Fogie"
             ],
             "creationDate": 1970,
-            "firstAlbum": "12-14-1973",
+            "firstAlbum": "14-12-1973",
             "locations": "https://groupietrackers.herokuapp.com/api/locations/1",
             "concertDates": "https://groupietrackers.herokuapp.com/api/dates/1",
             "relations": "https://groupietrackers.herokuapp.com/api/relation/1"
@@ -240,7 +240,7 @@
                 "Jimi Hendrix",
                 "Mitch Mitchell",
                 "Noel Redding",
-                "Billy Cox"                
+                "Billy Cox"
             ],
             "creationDate": 1966,
             "firstAlbum": "27-05-1967",
@@ -435,7 +435,7 @@
                 "Post Malone"
             ],
             "creationDate": 2013,
-            "firstAlbum": " 13-05-2016",
+            "firstAlbum": "13-05-2016",
             "locations": "https://groupietrackers.herokuapp.com/api/locations/29",
             "concertDates": "https://groupietrackers.herokuapp.com/api/dates/29",
             "relations": "https://groupietrackers.herokuapp.com/api/relation/29"
@@ -646,7 +646,7 @@
             "members" : [
                 "Anthony Kiedis",
                 "Flea",
-                "Chad Smith", 
+                "Chad Smith",
                 "Josh Klinghoffer"
             ],
             "creationDate": 1983,
@@ -706,7 +706,7 @@
             "members" : [
                 "Chris Martin",
                 "Guy Berryman",
-                "Jonny Buckland ",
+                "Jonny Buckland",
                 "Will Champion"
             ],
             "creationDate": 1996,
@@ -770,7 +770,7 @@
                 "name" : "Muse",
                 "members" : [
                     "Matthew Bellamy",
-                    "Christopher Wolstenholme ",
+                    "Christopher Wolstenholme",
                     "Dominic Howard "
                ],
                 "creationDate": 1994,
