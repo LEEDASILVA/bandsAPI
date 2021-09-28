@@ -106,10 +106,10 @@ func getLink(w http.ResponseWriter, r *http.Request) {
 		R string `json:"relation"`
 	}
 	res := a{}
-	str := `{ "artists":` + DOMAIN + `"/artists",
-	"locations":` + DOMAIN + `"/locations",
-	"dates":` + DOMAIN + `"/dates",
-	"relation":` + DOMAIN + `"/relation" }`
+	str := fmt.Sprintf(`{ "artists": "%s/artists",
+	"locations": "%s/locations",
+	"dates": "%s/dates",
+	"relation": "%s/relation" }`, DOMAIN, DOMAIN, DOMAIN, DOMAIN)
 	json.Unmarshal([]byte(str), &res)
 	json.NewEncoder(w).Encode(res)
 }
