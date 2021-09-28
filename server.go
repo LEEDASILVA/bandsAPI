@@ -56,7 +56,7 @@ type DatsLocs struct {
 	DatsLocs map[string][]string `json:"datesLocations"`
 }
 
-const DOMAIN = "https://groupi-trackers.herokuapp.com/api/"
+const DOMAIN = "https://groupi-trackers.herokuapp.com/api"
 
 var bands Bands
 var artists []Artist
