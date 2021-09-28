@@ -56,6 +56,8 @@ type DatsLocs struct {
 	DatsLocs map[string][]string `json:"datesLocations"`
 }
 
+const DOMAIN = "https://groupi-trackers.herokuapp.com/api/"
+
 var bands Bands
 var artists []Artist
 
@@ -104,10 +106,10 @@ func getLink(w http.ResponseWriter, r *http.Request) {
 		R string `json:"relation"`
 	}
 	res := a{}
-	str := `{ "artists": "https://groupietrackers.herokuapp.com/api/artists",
-	"locations": "https://groupietrackers.herokuapp.com/api/locations",
-	"dates": "https://groupietrackers.herokuapp.com/api/dates",
-	"relation": "https://groupietrackers.herokuapp.com/api/relation" }`
+	str := `{ "artists":` + DOMAIN + `"/artists",
+	"locations":` + DOMAIN + `"/locations",
+	"dates":` + DOMAIN + `"/dates",
+	"relation":` + DOMAIN + `"/relation" }`
 	json.Unmarshal([]byte(str), &res)
 	json.NewEncoder(w).Encode(res)
 }
