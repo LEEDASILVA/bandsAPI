@@ -14,6 +14,7 @@ import (
 	"strings"
 
 	"github.com/gorilla/mux"
+	"github.com/joho/godotenv"
 )
 
 type Bands struct {
@@ -56,19 +57,19 @@ type DatsLocs struct {
 	DatsLocs map[string][]string `json:"datesLocations"`
 }
 
-const DOMAIN = "https://groupi-trackers.herokuapp.com/api"
+var (
+	bands   Bands
+	artists []Artist
 
-var bands Bands
-var artists []Artist
+	locs      Locs
+	locations []Locations
 
-var locs Locs
-var locations []Locations
+	dats  Dats
+	dates []Dates
 
-var dats Dats
-var dates []Dates
-
-var datslocs DatsLocs
-var datloc DatLoc
+	datslocs DatsLocs
+	datloc   DatLoc
+)
 
 func handleError(err error) {
 	if err != nil {
@@ -98,6 +99,9 @@ func getRelations(w http.ResponseWriter, r *http.Request) {
 }
 
 func getLink(w http.ResponseWriter, r *http.Request) {
+	err := godotenv.Load(".env")
+	handleError(err)
+	DOMAIN := os.Getenv("DOMAIN")
 	w.Header().Set("Content-Type", "application/json")
 	type a struct {
 		A string `json:"artists"`
@@ -266,14 +270,14 @@ func locationNdates(d Dates) [][]string {
 	aster := false
 
 	for i, dat := range d.Dat {
-		if dat[0] == '*' && aster == false {
+		if dat[0] == '*' && !aster {
 			helper2 = append(helper2, dat[1:])
 			aster = true
-		} else if dat[0] == '*' && aster == true {
+		} else if dat[0] == '*' && aster {
 			helper = append(helper, helper2)
 			helper2 = []string{}
 			helper2 = append(helper2, dat[1:])
-		} else if dat[0] != '*' && aster == true {
+		} else if dat[0] != '*' && aster {
 			helper2 = append(helper2, dat)
 		}
 		if i == len(d.Dat)-1 {
@@ -297,7 +301,7 @@ func main() {
 	}
 	joinStructs(dats, locs)
 
-	//Route Handlers / Endpoints
+	// Route Handlers / Endpoints
 	r.HandleFunc("/api", getLink).Methods("GET")
 	r.HandleFunc("/api/artists", getArtists).Methods("GET")
 	r.HandleFunc("/api/locations", getLocations).Methods("GET")

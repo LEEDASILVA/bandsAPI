@@ -1,0 +1,6 @@
+# github.com/gorilla/mux v1.7.4-0.20191121170500-49c01487a141
+## explicit
+github.com/gorilla/mux
+# github.com/joho/godotenv v1.4.0
+## explicit
+github.com/joho/godotenv
