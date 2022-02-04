@@ -183,7 +183,7 @@
                 "boulogne_billancourt-france",
                 "nimes-france",
                 "sion-switzerland",
-                "ostrava-czech_republic",
+                "ostrava-czechia",
                 "klagenfurt-austria",
                 "freyming_merlebach-france"
             ],
@@ -273,7 +273,7 @@
                 "madison-usa",
                 "toronto-canada",
                 "cleveland-usa",
-                "new_york-us",
+                "new_york-usa",
                 "boston-usa",
                 "texas-usa",
                 "utah-usa",
@@ -359,7 +359,7 @@
             "id": 30,
             "locations": [
                 "santiago-chile",
-                "sao_paulo-brasil",
+                "sao_paulo-brazil",
                 "los_angeles-usa",
                 "houston-usa",
                 "atlanta-usa",
@@ -442,7 +442,7 @@
         {
             "id": 36,
             "locations": [
-                "manila-philippine",
+                "manila-philippines",
                 "mumbai-india",
                 "auckland-new_zealand",
                 "brisbane-australia",
@@ -470,7 +470,7 @@
                 "groningen-netherlands",
                 "antwerp-belgium",
                 "vienna-austria",
-                "glasgow-australia",
+                "glasgow-uk",
                 "london-uk"
             ],
             "dates":"https://groupietrackers.herokuapp.com/api/dates/38"
@@ -544,7 +544,7 @@
                 "manila-philippines",
                 "taipei-taiwan",
                 "hong_kong-china",
-                "seoul-korea"
+                "seoul-south_korea"
             ],
             "dates": "https://groupietrackers.herokuapp.com/api/dates/44"
         },
@@ -645,7 +645,7 @@
                 "nevada-usa",
                 "colorado-usa",
                 "munich-germany",
-                "prague-czech_republic",
+                "prague-czechia",
                 "milan-italy"
             ],
             "dates": "https://groupietrackers.herokuapp.com/api/dates/52"
